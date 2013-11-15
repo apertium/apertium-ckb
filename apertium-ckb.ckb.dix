@@ -69,7 +69,14 @@
 
     <!-- SECTION: Conjunctions -->
  
+    <e lm="و"><i>و</i><par n="وە__cnjcoo"/></e>
     <e lm="وە"><i>وە</i><par n="وە__cnjcoo"/></e>
+    <e lm="یان"><i>یان</i><par n="وە__cnjcoo"/></e>
+    <e lm="بێت"><i>بێت</i><par n="وە__cnjcoo"/></e>
+
+
+
+
  
     <e lm="ئه‌گه‌ر"><i>ئه‌گه‌ر</i><par n="ئه‌گه‌ر__cnjsub"/></e>
    
