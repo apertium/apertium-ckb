@@ -4,6 +4,7 @@
     <sdef n="n"        c="Noun"/>
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
     <sdef n="cnjsub"   c="Subordinating conjunction"/>
+    <sdef n="pr"       c="Preposition"/>
 
     <sdef n="sg"       c="Singular"/>
     <sdef n="pl"       c="Plural"/>
@@ -26,6 +27,10 @@
     </pardef>
 
     <!-- SECTION: Prepositions -->
+
+    <pardef n="لە__pr">
+      <e><p><l></l><r><s n="pr"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Pronouns -->
 
@@ -69,6 +74,8 @@
     <e lm="ئه‌گه‌ر"><i>ئه‌گه‌ر</i><par n="ئه‌گه‌ر__cnjsub"/></e>
    
     <!-- SECTION: Prepositions -->
+
+    <e lm="لە"><i>لە</i><par n="لە__pr"/></e>
 
     <!-- SECTION: Pronouns -->
 
