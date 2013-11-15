@@ -3,6 +3,7 @@
   <sdefs>
     <sdef n="n"        c="Noun"/>
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
+    <sdef n="cnjsub"   c="Subordinating conjunction"/>
   </sdefs>
   <pardefs>
     <!-- SECTION: Punctuation -->
@@ -13,6 +14,10 @@
 
     <pardef n="وە__cnjcoo">
       <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
+    <pardef n="ئه‌گه‌ر__cnjcoo">
+      <e><p><l></l><r><s n="cnjsub"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Prepositions -->
@@ -47,6 +52,8 @@
  
     <e lm="وە"><i>وە</i><par n="وە__cnjcoo"/></e>
  
+    <e lm="ئه‌گه‌ر"><i>ئه‌گه‌ر</i><par n="ئه‌گه‌ر__cnjsub"/></e>
+   
     <!-- SECTION: Prepositions -->
 
     <!-- SECTION: Pronouns -->
