@@ -1,0 +1,3 @@
+* text=auto !eol
+/Makefile -text
+/apertium-ckb.ckb.dix -text

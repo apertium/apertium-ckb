@@ -1,0 +1,72 @@
+<dictionary>
+  <alphabet>یێەه‍وووۆنملڵگکقڤفغعشسژزڕردخحچجتپبئا</alphabet>
+  <sdefs>
+    <sdef n="n"        c="Noun"/>
+    <sdef n="cnjcoo"   c="Coordinating conjunction"/>
+  </sdefs>
+  <pardefs>
+    <!-- SECTION: Punctuation -->
+
+    <!-- SECTION: Miscellaneous -->
+
+    <!-- SECTION: Conjunctions -->
+
+    <pardef n="وە__cnjcoo">
+      <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Prepositions -->
+
+    <!-- SECTION: Pronouns -->
+
+    <!-- SECTION: Determiners -->
+
+    <!-- SECTION: Numerals -->
+
+    <!-- SECTION: Nouns -->
+
+    <!-- SECTION: Proper nouns -->
+
+    <!-- SECTION: Adjectives -->
+
+    <!-- SECTION: Adverbs -->
+
+    <!-- SECTION: Verbs -->
+
+    <!-- SECTION: Interjections -->
+
+    <!-- SECTION: Abbreviations -->
+
+
+  </pardefs>
+  <section id="main" type="standard">
+
+    <!-- SECTION: Miscellaneous -->
+
+    <!-- SECTION: Conjunctions -->
+ 
+    <e lm="وە"><i>وە</i><par n="وە__cnjcoo"/></e>
+ 
+    <!-- SECTION: Prepositions -->
+
+    <!-- SECTION: Pronouns -->
+
+    <!-- SECTION: Determiners -->
+
+    <!-- SECTION: Numerals -->
+
+    <!-- SECTION: Nouns -->
+
+    <!-- SECTION: Proper nouns -->
+
+    <!-- SECTION: Adjectives -->
+
+    <!-- SECTION: Adverbs -->
+
+    <!-- SECTION: Verbs -->
+
+    <!-- SECTION: Interjections -->
+
+    <!-- SECTION: Abbreviations -->
+  </section>
+</dictionary>
