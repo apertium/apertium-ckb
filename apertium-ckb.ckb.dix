@@ -21,7 +21,7 @@
       <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
     </pardef>
 
-    <pardef n="ئه‌گه‌ر__cnjcoo">
+    <pardef n="ئه‌گه‌ر__cnjsub">
       <e><p><l></l><r><s n="cnjsub"/></r></p></e>
     </pardef>
 
@@ -35,8 +35,13 @@
 
     <!-- SECTION: Nouns -->
 
-    <pardef n="پاپۆڕ__n">
-      <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+    <pardef n="ئازادی__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="خانوو__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+        <e><p><l>كان</l><r><s n="n"/><s n="pl"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Proper nouns -->
@@ -72,6 +77,9 @@
     <!-- SECTION: Numerals -->
 
     <!-- SECTION: Nouns -->
+
+    <e lm="ئازادی"><i>ئازادی</i><par n="ئازادی__n"/></e>
+    <e lm="خانوو"><i>خانوو</i><par n="خانوو__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 
