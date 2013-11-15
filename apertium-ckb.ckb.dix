@@ -2,6 +2,7 @@
   <alphabet>یێەه‍وووۆنملڵگکقڤفغعشسژزڕردخحچجتپبئا</alphabet>
   <sdefs>
     <sdef n="n"        c="Noun"/>
+    <sdef n="adv"      c="Adverb"/>
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
     <sdef n="cnjsub"   c="Subordinating conjunction"/>
     <sdef n="pr"       c="Preposition"/>
@@ -55,6 +56,10 @@
 
     <!-- SECTION: Adverbs -->
 
+    <pardef n="ئه‌مرۆ__adv">
+      <e><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Verbs -->
 
     <!-- SECTION: Interjections -->
@@ -74,12 +79,12 @@
     <e lm="یان"><i>یان</i><par n="وە__cnjcoo"/></e>
     <e lm="بێت"><i>بێت</i><par n="وە__cnjcoo"/></e>
 
-
-
-
- 
     <e lm="ئه‌گه‌ر"><i>ئه‌گه‌ر</i><par n="ئه‌گه‌ر__cnjsub"/></e>
-   
+    <e lm="بێت"><i>بێت</i><par n="ئه‌گه‌ر__cnjsub"/></e>   
+
+
+
+
     <!-- SECTION: Prepositions -->
 
     <e lm="لە"><i>لە</i><par n="لە__pr"/></e>
@@ -117,6 +122,13 @@
     <!-- SECTION: Adjectives -->
 
     <!-- SECTION: Adverbs -->
+
+    <e lm="ئه‌مرۆ"><i>ئه‌مرۆ</i><par n="ئه‌مرۆ__adv"/></e>
+
+    <e lm="پێک"><i>پێک</i><par n="ئه‌مرۆ__adv"/></e>
+    <e lm="دوای"><i>دوای</i><par n="ئه‌مرۆ__adv"/></e>
+    <e lm="زۆر"><i>زۆر</i><par n="ئه‌مرۆ__adv"/></e>
+
 
     <!-- SECTION: Verbs -->
 
