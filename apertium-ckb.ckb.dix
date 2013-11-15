@@ -4,6 +4,11 @@
     <sdef n="n"        c="Noun"/>
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
     <sdef n="cnjsub"   c="Subordinating conjunction"/>
+
+    <sdef n="sg"       c="Singular"/>
+    <sdef n="pl"       c="Plural"/>
+
+    <sdef n="sent"     c="End-of-sentence marker"/>
   </sdefs>
   <pardefs>
     <!-- SECTION: Punctuation -->
@@ -29,6 +34,10 @@
     <!-- SECTION: Numerals -->
 
     <!-- SECTION: Nouns -->
+
+    <pardef n="پاپۆڕ__n">
+      <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Proper nouns -->
 
