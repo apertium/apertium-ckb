@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+dir=@libdir@/apertium/apertium-ckb
+srcdir=@datarootdir@/apertium/apertium-ckb
+
+Name: apertium-ckb
+Description: Finite-state morphological transducer and constraint grammar for Sorani Kurdish 
+Version: @VERSION@
+
