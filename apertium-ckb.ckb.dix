@@ -88,11 +88,10 @@
 
   </pardefs>
   <section id="main" type="standard">
-
     <!-- SECTION: Miscellaneous -->
 
     <!-- SECTION: Conjunctions -->
- 
+
     <e lm="و"><i>و</i><par n="وە__cnjcoo"/></e>
     <e lm="وە"><i>وە</i><par n="وە__cnjcoo"/></e>
     <e lm="یان"><i>یان</i><par n="وە__cnjcoo"/></e>
@@ -101,18 +100,8 @@
     <e lm="ئه‌گه‌ر"><i>ئه‌گه‌ر</i><par n="ئه‌گه‌ر__cnjsub"/></e>
     <e lm="بێت"><i>بێت</i><par n="ئه‌گه‌ر__cnjsub"/></e>   
 
-
-
-
     <!-- SECTION: Prepositions -->
 
-
-    <e lm="لە"><i>لە</i><par n="لە__pr"/></e>‫
-    <e lm="لە"><i>‌له‌سه‌ر</i><par n="لە__pr"/></e>‫
-    <e lm="ۆی"><i>ۆی</i><par n="لە__pr"/></e>
-    <e lm="بە"><i>بە</i><par n="لە__pr"/></e>
-    <e lm="دە"><i>دە</i><par n="لە__pr"/></e>
-    <e lm="بەڵام"><i>بەڵام</i><par n="لە__pr"/></e>
     <e lm="بەر"><i>بەر</i><par n="لە__pr"/></e>
     <e lm="به"><i>به</i><par n="لە__pr"/></e>
     <e lm="تا"><i>تا</i><par n="لە__pr"/></e>
@@ -125,6 +114,14 @@
     <e lm="لەو"><i>لەو</i><par n="لە__pr"/></e>
     <e lm="نێوان"><i>نێوان</i><par n="لە__pr"/></e>
     <e lm="ئه"><i>ئه</i><par n="لە__pr"/></e>
+
+
+    <e lm="دە"><i>دە</i><par n="لە__pr"/></e>
+    <e lm="بەڵام"><i>بەڵام</i><par n="لە__pr"/></e>
+
+
+    <e lm="لە"><i>لە</i><par n="لە__pr"/></e>
+    <e lm="لە"><i>‌له‌سه‌ر</i><par n="لە__pr"/></e>
 
 
     <!-- SECTION: Pronouns -->
