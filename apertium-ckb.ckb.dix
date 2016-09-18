@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet>یێەه‍وووۆنملڵگکقڤفغعشسژزڕردخحچجتپبئا</alphabet>
   <sdefs>
@@ -59,12 +60,12 @@
     </pardef>
 
     <pardef n="نام_ه__n">
-        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p></e>
-        <e><p><l>‌ی‫ك‬</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e> <!-- ZWNJ'd -->
+        <e><p><l>ه</l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p></e>
+        <e><p><l>ه‌ی‫ك‬</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e> 
         <e><p><l>ان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
-        <e><p><l>‌كه</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
-        <e><p><l>‌كان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
-        <e><p><l>‌یه</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
+        <e><p><l>ه‌كه</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e><p><l>ه‌كان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e><p><l>ه‌یه</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
         <e><p><l>انه</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
     </pardef>
 
@@ -105,9 +106,12 @@
 
     <!-- SECTION: Prepositions -->
 
-    <e lm="لە"><i>لە</i><par n="لە__pr"/></e>
+
+    <e lm="لە"><i>لە</i><par n="لە__pr"/></e>‫
+    <e lm="لە"><i>‌له‌سه‌ر</i><par n="لە__pr"/></e>‫
     <e lm="ۆی"><i>ۆی</i><par n="لە__pr"/></e>
     <e lm="بە"><i>بە</i><par n="لە__pr"/></e>
+    <e lm="دە"><i>دە</i><par n="لە__pr"/></e>
     <e lm="بەڵام"><i>بەڵام</i><par n="لە__pr"/></e>
     <e lm="بەر"><i>بەر</i><par n="لە__pr"/></e>
     <e lm="به"><i>به</i><par n="لە__pr"/></e>
