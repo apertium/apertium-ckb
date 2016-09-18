@@ -6,10 +6,13 @@
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
     <sdef n="cnjsub"   c="Subordinating conjunction"/>
     <sdef n="pr"       c="Preposition"/>
-
+    <sdef n="eza"       c="Ezafet"/>
     <sdef n="sg"       c="Singular"/>
     <sdef n="pl"       c="Plural"/>
-
+    <sdef n="abs"      c="Absolute"/>
+    <sdef n="ind"       c="Indefinite"/>
+    <sdef n="def"       c="Definite"/>
+    <sdef n="dem"       c="Demonstrative"/>
     <sdef n="sent"     c="End-of-sentence marker"/>
   </sdefs>
   <pardefs>
@@ -46,8 +49,23 @@
     </pardef>
 
     <pardef n="خانوو__n">
-        <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
-        <e><p><l>كان</l><r><s n="n"/><s n="pl"/></r></p></e>
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p></e>
+        <e><p><l>ێك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
+        <e><p><l>ان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
+        <e><p><l>ه‌كه</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e><p><l>ه‌كان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e><p><l>ه</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
+        <e><p><l>انه</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
+    </pardef>
+
+    <pardef n="نامه__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p></e>
+        <e><p><l>‌ی‫ك‬</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e> <!-- ZWNJ'd -->
+        <e><p><l>ان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
+        <e><p><l>ه‌كه</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e><p><l>ه‌كان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e><p><l>ه</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
+        <e><p><l>انه</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Proper nouns -->
@@ -114,6 +132,14 @@
     <!-- SECTION: Nouns -->
 
     <e lm="ئازادی"><i>ئازادی</i><par n="ئازادی__n"/></e>
+    <e lm="‫كت‬او‬"><i>‫‫كت‬او‬</i><par n="خانوو__n"/></e>
+    <e lm="‫كت‬او‬"><i>‫‫كت‬او‬</i><par n="خانوو__n"/></e>
+    <e lm="‫‬ماستاو"><i>‫‬ماستاو</i><par n="خانوو__n"/></e>
+    <e lm="‫سێو‬"><i>‫‬سێو</i><par n="خانوو__n"/></e>
+    <e lm="‫چاو‬"><i>‫چاو‬</i><par n="خانوو__n"/></e>
+    <e lm="‫‬خەو"><i>‫‬خەو</i><par n="خانوو__n"/></e>
+    <e lm="‫‬ئاو"><i>‫ئاو‬</i><par n="خانوو__n"/></e>
+    <e lm="‫پياو‬"><i>‫پياو‬</i><par n="خانوو__n"/></e>
     <e lm="خانوو"><i>خانوو</i><par n="خانوو__n"/></e>
     <e lm="باخچه‌"><i>باخچه‌</i><par n="خانوو__n"/></e>
 
