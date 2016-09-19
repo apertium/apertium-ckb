@@ -26,6 +26,7 @@
       <e><re>[۰۱۲۳٤۵٦۷۸۹]+([.,][۰۱۲۳٤۵٦۷۸۹]+)?</re><p><l/><r><s n="num"/></r></p></e>
     </pardef>
 
+
     <!-- SECTION: Miscellaneous -->
 
     <!-- SECTION: Conjunctions -->
