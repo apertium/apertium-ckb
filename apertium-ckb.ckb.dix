@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-  <alphabet>یێەه‍وووۆنملڵگکكقڤفغعشBسژزڕردخحچجتپبئا</alphabet>
+  <alphabet>یێەه‍وووۆنملڵگکكقڤفغعش‌سژزڕردخحچجتهپبئا</alphabet>
   <sdefs>
     <sdef n="n"        c="Noun"/>
     <sdef n="adv"      c="Adverb"/>
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
     <sdef n="cnjsub"   c="Subordinating conjunction"/>
     <sdef n="pr"       c="Preposition"/>
-    <sdef n="eza"       c="Ezafet"/>
+    <sdef n="ezalos"       c="Loose ezafet"/>
+    <sdef n="ezaclo"       c="Close ezafet"/>
     <sdef n="sg"       c="Singular"/>
     <sdef n="pl"       c="Plural"/>
     <sdef n="abs"      c="Absolute"/>
     <sdef n="ind"       c="Indefinite"/>
     <sdef n="def"       c="Definite"/>
+    <sdef n="det"       c="Determiner"/>
     <sdef n="dem"       c="Demonstrative"/>
     <sdef n="sent"     c="End-of-sentence marker"/>
   </sdefs>
@@ -27,7 +29,7 @@
       <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
     </pardef>
 
-    <pardef n="ئه‌گه‌ر__cnjsub">
+    <pardef n="ئەگەر__cnjsub">
       <e><p><l></l><r><s n="cnjsub"/></r></p></e>
     </pardef>
 
@@ -41,6 +43,11 @@
 
     <!-- SECTION: Determiners -->
 
+    <pardef n="ئەم__det">
+      <e><p><l></l><r><s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Numerals -->
 
     <!-- SECTION: Nouns -->
@@ -53,20 +60,27 @@
         <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p></e>
         <e><p><l>ێك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
         <e><p><l>ان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
-        <e><p><l>ه‌كه</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
-        <e><p><l>ه‌كان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
-        <e><p><l>ه</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
-        <e><p><l>انه</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
+        <e><p><l>ەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e><p><l>ەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
+        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
     </pardef>
 
     <pardef n="نام_ه__n">
-        <e><p><l>ه</l><r>ه<s n="n"/><s n="sg"/><s n="abs"/></r></p></e>
-        <e><p><l>ه‌یه‌ك</l><r>ه<s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
-        <e><p><l>ان</l><r>ه<s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
-        <e><p><l>ه‌كه</l><r>ه<s n="n"/><s n="sg"/><s n="def"/></r></p></e>
-        <e><p><l>ه‌كان</l><r>ه<s n="n"/><s n="pl"/><s n="def"/></r></p></e>
-        <e><p><l>ه‌یه</l><r>ه<s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
-        <e><p><l>انه</l><r>ه<s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="abs"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ەی</l><r>ە<s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ەیەك</l><r>ە<s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
+        <e><p><l>ەیەكی</l><r>ە<s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>انی</l><r>ە<s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ەكە</l><r>ە<s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e><p><l>ەكان</l><r>ە<s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e><p><l>ەكەی</l><r>ە<s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ەكانی</l><r>ە<s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ەیە</l><r>ە<s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
+        <e><p><l>انە</l><r>ە<s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e><p><l>انە</l><r>ە<s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Proper nouns -->
@@ -75,7 +89,7 @@
 
     <!-- SECTION: Adverbs -->
 
-    <pardef n="ئه‌مرۆ__adv">
+    <pardef n="ئەمرۆ__adv">
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
@@ -98,24 +112,24 @@
     <e lm="یان"><i>یان</i><par n="وە__cnjcoo"/></e>
     <e lm="بێت"><i>بێت</i><par n="وە__cnjcoo"/></e>
 
-    <e lm="ئه‌گه‌ر"><i>ئه‌گه‌ر</i><par n="ئه‌گه‌ر__cnjsub"/></e>
-    <e lm="بێت"><i>بێت</i><par n="ئه‌گه‌ر__cnjsub"/></e>   
-    <e lm="کە"><i>کە</i><par n="ئه‌گه‌ر__cnjsub"/></e>
+    <e lm="ئەگەر"><i>ئەگەر</i><par n="ئەگەر__cnjsub"/></e>
+    <e lm="بێت"><i>بێت</i><par n="ئەگەر__cnjsub"/></e>   
+    <e lm="كە"><i>كە</i><par n="ئەگەر__cnjsub"/></e>
 
     <!-- SECTION: Prepositions -->
 
     <e lm="بەر"><i>بەر</i><par n="لە__pr"/></e>
-    <e lm="به"><i>به</i><par n="لە__pr"/></e>
+    <e lm="به"><i>بە</i><par n="لە__pr"/></e>
     <e lm="تا"><i>تا</i><par n="لە__pr"/></e>
     <e lm="دوای"><i>دوای</i><par n="لە__pr"/></e>
-    <e lm="کە"><i>کە</i><par n="لە__pr"/></e>
-    <e lm="ڕێکەوتی"><i>ڕێکەوتی</i><par n="لە__pr"/></e>
+    <e lm="كە"><i>كە</i><par n="لە__pr"/></e>
+    <e lm="ڕێكەوتی"><i>ڕێكەوتی</i><par n="لە__pr"/></e>
     <e lm="لەسەر"><i>لەسەر</i><par n="لە__pr"/></e>
     <e lm="لەم"><i>لەم</i><par n="لە__pr"/></e>
-    <e lm="له"><i>له</i><par n="لە__pr"/></e>
+    <e lm="له"><i>لە</i><par n="لە__pr"/></e>
     <e lm="لەو"><i>لەو</i><par n="لە__pr"/></e>
     <e lm="نێوان"><i>نێوان</i><par n="لە__pr"/></e>
-    <e lm="ئه"><i>ئه</i><par n="لە__pr"/></e>
+    <e lm="ئه"><i>ئە</i><par n="لە__pr"/></e>
 
 
     <e lm="دە"><i>دە</i><par n="لە__pr"/></e>
@@ -123,13 +137,14 @@
 
 
     <e lm="لە"><i>لە</i><par n="لە__pr"/></e>
-    <e lm="لە"><i>‌له‌سه‌ر</i><par n="لە__pr"/></e>
+    <e lm="لە"><i>‌لەسەر</i><par n="لە__pr"/></e>
 
 
     <!-- SECTION: Pronouns -->
 
     <!-- SECTION: Determiners -->
-
+    <e lm="ئەم"><i>ئەم</i><par n="ئەم__det"/></e>
+    <e lm="ئەو"><i>ئەو</i><par n="ئەم__det"/></e>
     <!-- SECTION: Numerals -->
 
     <!-- SECTION: Nouns -->
@@ -144,7 +159,7 @@
     <e lm="‫‬ئاو"><i>‫ئاو‬</i><par n="خانوو__n"/></e>
     <e lm="‫پياو‬"><i>‫پياو‬</i><par n="خانوو__n"/></e>
     <e lm="خانوو"><i>خانوو</i><par n="خانوو__n"/></e>
-    <e lm="باخچه"><i>باخچه‌</i><par n="خانوو__n"/></e>
+    <e lm="باخچه"><i>باخچە</i><par n="خانوو__n"/></e>
     <e lm="باخچە"><i>باخچ</i><par n="نام_ه__n"/></e>
     <e lm="بیرە"><i>بیر</i><par n="نام_ه__n"/></e>
     <e lm="پارە"><i>پار</i><par n="نام_ه__n"/></e>
@@ -170,11 +185,11 @@
 
     <!-- SECTION: Adverbs -->
 
-    <e lm="ئه‌مرۆ"><i>ئه‌مرۆ</i><par n="ئه‌مرۆ__adv"/></e>
+    <e lm="ئەمرۆ"><i>ئەمرۆ</i><par n="ئەمرۆ__adv"/></e>
 
-    <e lm="پێک"><i>پێک</i><par n="ئه‌مرۆ__adv"/></e>
-    <e lm="دوای"><i>دوای</i><par n="ئه‌مرۆ__adv"/></e>
-    <e lm="زۆر"><i>زۆر</i><par n="ئه‌مرۆ__adv"/></e>
+    <e lm="پێك"><i>پێك</i><par n="ئەمرۆ__adv"/></e>
+    <e lm="دوای"><i>دوای</i><par n="ئەمرۆ__adv"/></e>
+    <e lm="زۆر"><i>زۆر</i><par n="ئەمرۆ__adv"/></e>
 
 
     <!-- SECTION: Verbs -->
