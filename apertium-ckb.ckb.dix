@@ -61,7 +61,7 @@
 
     <pardef n="نام_ه__n">
         <e><p><l>ه</l><r>ه<s n="n"/><s n="sg"/><s n="abs"/></r></p></e>
-        <e><p><l>ه‌یه‌‫ك‬</l><r>ه<s n="n"/><s n="sg"/><s n="ind"/></r></p></e> 
+        <e><p><l>ه‌یه‌ك</l><r>ه<s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
         <e><p><l>ان</l><r>ه<s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
         <e><p><l>ه‌كه</l><r>ه<s n="n"/><s n="sg"/><s n="def"/></r></p></e>
         <e><p><l>ه‌كان</l><r>ه<s n="n"/><s n="pl"/><s n="def"/></r></p></e>
