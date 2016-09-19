@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <analysis-chars>
   <!-- Describe equivalent characters in monodices here. See http://wiki.apertium.org/wiki/Acx for more information. -->
+  <char value="ك">
+    <equiv-char value="ک"/>
+  </char>
+  <char value="ک">
+    <equiv-char value="ك"/>
+  </char>
 </analysis-chars>
 
