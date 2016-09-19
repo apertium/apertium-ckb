@@ -13,5 +13,11 @@
   <char value="ه">
     <equiv-char value="ە"/>
   </char>
+  <char value="ﺍ">
+    <equiv-char value="ﺍ"/>
+  </char>
+  <char value="ﺍ">
+    <equiv-char value="ﺍ"/>
+  </char>
 </analysis-chars>
 
