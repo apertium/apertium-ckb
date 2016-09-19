@@ -16,6 +16,7 @@
     <sdef n="def"       c="Definite"/>
     <sdef n="det"       c="Determiner"/>
     <sdef n="dem"       c="Demonstrative"/>
+    <sdef n="pers"       c="Personal"/>
     <sdef n="num"       c="Number"/>
     <sdef n="sent"     c="End-of-sentence marker"/>
   </sdefs>
@@ -46,6 +47,25 @@
     </pardef>
 
     <!-- SECTION: Pronouns -->
+    <pardef n="من__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
+    </pardef>
+    <pardef n="تۆ__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
+    </pardef>
+    <pardef n="ئەو__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+    <pardef n="ئێمە__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="ئێوە__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="ئەوان__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
 
     <!-- SECTION: Determiners -->
 
