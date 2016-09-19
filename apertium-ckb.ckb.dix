@@ -16,10 +16,15 @@
     <sdef n="def"       c="Definite"/>
     <sdef n="det"       c="Determiner"/>
     <sdef n="dem"       c="Demonstrative"/>
+    <sdef n="num"       c="Number"/>
     <sdef n="sent"     c="End-of-sentence marker"/>
   </sdefs>
   <pardefs>
     <!-- SECTION: Punctuation -->
+
+    <pardef n="numeros">
+      <e><re>[۰۱۲۳٤۵٦۷۸۹]+([.,][۰۱۲۳٤۵٦۷۸۹]+)?</re><p><l/><r><s n="num"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Miscellaneous -->
 
@@ -73,14 +78,20 @@
         <e><p><l>ەیەك</l><r>ە<s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
         <e><p><l>ەیەكی</l><r>ە<s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
         <e><p><l>انی</l><r>ە<s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
         <e><p><l>ەكە</l><r>ە<s n="n"/><s n="sg"/><s n="def"/></r></p></e>
         <e><p><l>ەكان</l><r>ە<s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>انە</l><r>ە<s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
         <e><p><l>ەكەی</l><r>ە<s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
         <e><p><l>ەكانی</l><r>ە<s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
         <e><p><l>ەیە</l><r>ە<s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
         <e><p><l>انە</l><r>ە<s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
         <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
         <e><p><l>انە</l><r>ە<s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Proper nouns -->
