@@ -60,13 +60,13 @@
     </pardef>
 
     <pardef n="نام_ه__n">
-        <e><p><l>ه</l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p></e>
-        <e><p><l>ه‌ی‫ك‬</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e> 
-        <e><p><l>ان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
-        <e><p><l>ه‌كه</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
-        <e><p><l>ه‌كان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
-        <e><p><l>ه‌یه</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
-        <e><p><l>انه</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
+        <e><p><l>ه</l><r>ه<s n="n"/><s n="sg"/><s n="abs"/></r></p></e>
+        <e><p><l>ه‌یه‌‫ك‬</l><r>ه<s n="n"/><s n="sg"/><s n="ind"/></r></p></e> 
+        <e><p><l>ان</l><r>ه<s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
+        <e><p><l>ه‌كه</l><r>ه<s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e><p><l>ه‌كان</l><r>ه<s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e><p><l>ه‌یه</l><r>ه<s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
+        <e><p><l>انه</l><r>ه<s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Proper nouns -->
@@ -94,11 +94,13 @@
 
     <e lm="و"><i>و</i><par n="وە__cnjcoo"/></e>
     <e lm="وە"><i>وە</i><par n="وە__cnjcoo"/></e>
+
     <e lm="یان"><i>یان</i><par n="وە__cnjcoo"/></e>
     <e lm="بێت"><i>بێت</i><par n="وە__cnjcoo"/></e>
 
     <e lm="ئه‌گه‌ر"><i>ئه‌گه‌ر</i><par n="ئه‌گه‌ر__cnjsub"/></e>
     <e lm="بێت"><i>بێت</i><par n="ئه‌گه‌ر__cnjsub"/></e>   
+    <e lm="کە"><i>کە</i><par n="ئه‌گه‌ر__cnjsub"/></e>
 
     <!-- SECTION: Prepositions -->
 
@@ -149,6 +151,7 @@
     <e lm="پارچە"><i>پارچ</i><par n="نام_ه__n"/></e>
     <e lm="پیشە"><i>پیش</i><par n="نام_ه__n"/></e>
     <e lm="جامعە"><i>جامع</i><par n="نام_ه__n"/></e>
+    <e lm="قوتابخانه"><i>قوتابخان</i><par n="نام_ه__n"/></e>
     <e lm="چایخانە"><i>چایخان</i><par n="نام_ه__n"/></e>
     <e lm="دەرمانخانە"><i>دەرمانخان</i><par n="نام_ه__n"/></e>
     <e lm="زانستگە"><i>زانستگ</i><par n="نام_ه__n"/></e>
