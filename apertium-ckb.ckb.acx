@@ -7,5 +7,11 @@
   <char value="ک">
     <equiv-char value="ك"/>
   </char>
+  <char value="ە">
+    <equiv-char value="ه"/>
+  </char>
+  <char value="ه">
+    <equiv-char value="ە"/>
+  </char>
 </analysis-chars>
 
