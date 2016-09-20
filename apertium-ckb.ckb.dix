@@ -4,11 +4,13 @@
   <sdefs>
     <sdef n="n"        c="Noun"/>
     <sdef n="adv"      c="Adverb"/>
+    <sdef n="adj"      c="Adjective"/>
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
     <sdef n="cnjsub"   c="Subordinating conjunction"/>
     <sdef n="pr"       c="Preposition"/>
     <sdef n="post"       c="Postposition"/>
     <sdef n="prn"       c="Pronoun"/>
+    <sdef n="pst"       c="Positive"/>
     <sdef n="ezalos"       c="Loose ezafet"/>
     <sdef n="ezaclo"       c="Close ezafet"/>
     <sdef n="sg"       c="Singular"/>
@@ -191,6 +193,7 @@
         <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="ezaclo"/></r></p></e>
         <e><p><l>ەی</l><r>ە<s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
         <e><p><l>ەیەك</l><r>ە<s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
+        <e><p><l>ان</l><r>ە<s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
         <e><p><l>ەیەكی</l><r>ە<s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
         <e><p><l>انی</l><r>ە<s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
         <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
@@ -217,6 +220,29 @@
     <!-- SECTION: Proper nouns -->
 
     <!-- SECTION: Adjectives -->
+    <pardef n="گەور_ە__adj">
+      <e><p><l>ە</l><r>ە<s n="adj"/><s n="pst"/></r></p></e>
+      <e><p><l>ەیەك</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="ind"/></r></p></e>
+      <e><p><l>ان</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="ind"/></r></p></e>
+      <e><p><l>ەیە</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="dem"/></r></p></e>
+      <e><p><l>ەیە</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
+      <e><p><l>انە</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
+      <e><p><l>ەكە</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="def"/></r></p></e>
+      <e><p><l>ەكان</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="def"/></r></p></e>
+    </pardef>
+
+    <pardef n="درێژ__adj">
+      <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p></e>
+      <e><p><l>ێك</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="ind"/></r></p></e>
+      <e><p><l>ان</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="ind"/></r></p></e>
+      <e><p><l>ە</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="dem"/></r></p></e>
+      <e><p><l>ە</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
+      <e><p><l>انە</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
+      <e><p><l>ەكە</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="def"/></r></p></e>
+      <e><p><l>ەكە</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="def"/></r></p></e>
+      <e><p><l>ەكان</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="def"/></r></p></e>
+    </pardef>
+
 
     <!-- SECTION: Adverbs -->
 
@@ -249,6 +275,7 @@
 
     <!-- SECTION: Prepositions -->
 
+    <e lm="بێ"><i>بێ</i><par n="بەر__pr"/></e>
     <e lm="بەر"><i>بەر</i><par n="بەر__pr"/></e>
     <e lm="به"><i></i><par n="_بە__pr"/></e>
     <e lm="تا"><i>تا</i><par n="بەر__pr"/></e>
@@ -287,8 +314,14 @@
     <e lm="ئەو"><i>ئەو</i><par n="ئەم__det"/></e>
     <!-- SECTION: Numerals -->
 
-    <!-- SECTION: Nouns -->
+    <!-- SECTION: Adjectives -->
 
+    <e lm="گەورە"><i>گەور</i><par n="گەور_ە__adj"/></e>
+    <e lm="درێژ"><i>درێژ</i><par n="درێژ__adj"/></e>
+
+    <!-- SECTION: Nouns -->
+    <e lm="وڵات"><i>وڵات</i><par n="خانوو__n"/></e>
+    <e lm="ئینگلیزی"><i>ئینگلیزی</i><par n="ئازادی__n"/></e>
     <e lm="ئازادی"><i>ئازادی</i><par n="ئازادی__n"/></e>
     <e lm="كتاو"><i>كتاو</i><par n="خانوو__n"/></e>
     <e lm="کرد"><i>کرد</i><par n="خانوو__n"/></e>
@@ -474,7 +507,7 @@
 
     <!-- SECTION: Proper nouns -->
 
-    <!-- SECTION: Adjectives -->
+
 
     <!-- SECTION: Adverbs -->
 
