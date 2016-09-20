@@ -18,6 +18,10 @@
     <sdef n="dem"       c="Demonstrative"/>
     <sdef n="pers"       c="Personal"/>
     <sdef n="num"       c="Number"/>
+    <sdef n="prn"       c="Number"/>
+    <sdef n="p1"       c="Number"/>
+    <sdef n="p2"       c="Number"/>
+    <sdef n="p3"       c="Number"/>
     <sdef n="sent"     c="End-of-sentence marker"/>
   </sdefs>
   <pardefs>
