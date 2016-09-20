@@ -24,6 +24,12 @@
     <sdef n="p1"       c="Number"/>
     <sdef n="p2"       c="Number"/>
     <sdef n="p3"       c="Number"/>
+    <sdef n="p1xsg"       c="Possessor"/>
+    <sdef n="p2xsg"       c="Possessor"/>
+    <sdef n="p3xsg"       c="Possessor"/>
+    <sdef n="p1xpl"       c="Possessor"/>
+    <sdef n="p2xpl"       c="Possessor"/>
+    <sdef n="p3xpl"       c="Possessor"/>
     <sdef n="sent"     c="End-of-sentence marker"/>
   </sdefs>
   <pardefs>
@@ -57,8 +63,18 @@
     </pardef>
 
 
-    <!-- SECTION: Clitics <par n="من__prn"/>-->
+    <!-- SECTION: Clitics -->
     <pardef n="pers__prn_clt">
+      <e><p><l></l><r></r></p></e>
+      <e><p><l>م</l><r></r></p><par n="من__prn"/></e>
+      <e><p><l>ت</l><r></r></p><par n="تۆ__prn"/></e>
+      <e><p><l>‫ی‬</l><r></r></p><par n="ئەو__prn"/></e>
+      <e><p><l>‫مان‬</l><r></r></p><par n="ئێمە__prn"/></e>
+      <e><p><l>تان</l><r></r></p><par n="ئێوە__prn"/></e>
+      <e><p><l>یان</l><r></r></p><par n="ئەوان__prn"/></e>	
+    </pardef>
+
+    <pardef n="poss__agr">
       <e><p><l></l><r></r></p></e>
       <e><p><l>م</l><r><j/>من</r></p><par n="من__prn"/></e>
       <e><p><l>ت</l><r><j/>تۆ</r></p><par n="تۆ__prn"/></e>
@@ -69,13 +85,13 @@
     </pardef>
 
     <pardef n="ش__vocalic">
-        <e><p><l></l><r></r></p><par n="pers__prn_clt"/></e>
-        <e><p><l>ش</l><r><s n="emph"/></r></p><par n="pers__prn_clt"/></e>
+        <e><p><l></l><r></r></p><par n="poss__agr"/></e>
+        <e><p><l>ش</l><r><s n="emph"/></r></p><par n="poss__agr"/></e>
     </pardef>
 
     <pardef n="یش__consonantal">
-        <e><p><l></l><r></r></p><par n="pers__prn_clt"/></e>
-        <e><p><l>یش</l><r><s n="emph"/></r></p><par n="pers__prn_clt"/></e>
+        <e><p><l></l><r></r></p><par n="poss__agr"/></e>
+        <e><p><l>یش</l><r><s n="emph"/></r></p><par n="poss__agr"/></e>
     </pardef>
 
 
@@ -94,7 +110,13 @@
 
     <pardef n="ل_ە__pr">
       <e><p><l>ە</l><r>ە<s n="pr"/></r></p></e>
-      <e><p><l>ێ</l><r>ە<s n="pr"/></r></p><par n="pers__prn_clt"/></e> 
+      <e><p><l>ێ</l><r>ە<s n="pr"/></r></p><par n="pers__prn_clt"/></e>
+      <e><p><l>ەم</l><r>ە<j/>من</r></p><par n="من__prn"/></e>
+      <e><p><l>ەت</l><r>ە<j/>تۆ</r></p><par n="تۆ__prn"/></e>
+      <e><p><l>‫ەو‬</l><r>ە<j/>ئەو</r></p><par n="ئەو__prn"/></e>
+      <e><p><l>‫ەمە‬</l><r>ە<j/>ئێمە</r></p><par n="ئێمە__prn"/></e>
+      <e><p><l>ەوە</l><r>ە<j/>ئێوە</r></p><par n="ئێوە__prn"/></e>
+      <e><p><l>ەوان</l><r>ە<j/>ئەوان</r></p><par n="ئەوان__prn"/></e> 
     </pardef>
 
     <pardef n="_بە__pr">
@@ -129,9 +151,13 @@
 
     <!-- SECTION: Nouns -->
 
+
+
     <pardef n="ئازادی__n">
         <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
     </pardef>
+
+
 
     <pardef n="خانوو__n">
         <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="یش__consonantal"/></e>
@@ -156,6 +182,8 @@
         <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
         <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
         <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+	<!-- ZWNJ stuff -->
+        <e r="LR"><p><l>ەكە‌ی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
     </pardef>
 
     <pardef n="نام_ه__n">
@@ -179,6 +207,9 @@
         <e><p><l>انە</l><r>ە<s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
         <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
         <e><p><l>ە</l><r>ە<s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+	<!-- ZWNJ stuff -->
+        <e r="LR"><p><l>ە‌ی</l><r>ە<s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
+        <e r="LR"><p><l>ەكە‌ی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
     </pardef>
 
 
@@ -225,6 +256,7 @@
     <e lm="كە"><i>ك</i><par n="ل_ە__pr"/></e> <!-- ASK -->
     <e lm="ڕێكەوتی"><i>ڕێكەوتی</i><par n="بەر__pr"/></e>
     <e lm="لەسەر"><i>لەسەر</i><par n="بەر__pr"/></e>
+    <e lm="لەناو"><i>لەناو</i><par n="بەر__pr"/></e>
     <e lm="لەم"><i>لەم</i><par n="بەر__pr"/></e>
     <e lm="لەو"><i>لەو</i><par n="بەر__pr"/></e>
     <e lm="نێوان"><i>نێوان</i><par n="بەر__pr"/></e>
@@ -246,6 +278,7 @@
 
     <!-- SECTION: Postpositions -->
     <e lm="دا"><i>دا</i><par n="دا__post"/></e>
+
 
     <!-- SECTION: Pronouns -->
 
