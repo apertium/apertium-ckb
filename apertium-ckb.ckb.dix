@@ -7,6 +7,7 @@
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
     <sdef n="cnjsub"   c="Subordinating conjunction"/>
     <sdef n="pr"       c="Preposition"/>
+    <sdef n="post"       c="Postposition"/>
     <sdef n="prn"       c="Pronoun"/>
     <sdef n="ezalos"       c="Loose ezafet"/>
     <sdef n="ezaclo"       c="Close ezafet"/>
@@ -110,6 +111,11 @@
       <e><p><l></l><r><s n="pr"/></r></p><par n="pers__prn_clt"/></e>
     </pardef>
 
+    <!-- SECTION: Postpositions -->
+
+    <pardef n="دا__post">
+      <e><p><l></l><r><s n="post"/></r></p></e>
+    </pardef>
     <!-- SECTION: Determiners -->
 
     <pardef n="ئەم__det">
@@ -231,7 +237,12 @@
 
     <e lm="لە"><i>ل</i><par n="ل_ە__pr"/></e>
     <e lm="لەسەر"><i>لەسەر</i><par n="بەر__pr"/></e>
+    <e lm="لەبن"><i>لەبن</i><par n="بەر__pr"/></e>
+    <e lm="لەگەڵ"><i>لەگەڵ</i><par n="بەر__pr"/></e>
+    <e lm="بۆ"><i>بۆ</i><par n="بەر__pr"/></e>
 
+    <!-- SECTION: Postpositions -->
+    <e lm="دا"><i>دا</i><par n="دا__post"/></e>
 
     <!-- SECTION: Pronouns -->
 
