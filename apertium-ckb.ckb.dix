@@ -32,6 +32,10 @@
     <sdef n="p1xpl"       c="Possessor"/>
     <sdef n="p2xpl"       c="Possessor"/>
     <sdef n="p3xpl"       c="Possessor"/>
+    <sdef n="iv"       c="Intransitive"/>
+    <sdef n="tv"       c="Transitive"/>
+    <sdef n="vblex"       c="Lexical verb"/>
+    <sdef n="pri"       c="Present indicative"/>
     <sdef n="sent"     c="End-of-sentence marker"/>
   </sdefs>
   <pardefs>
@@ -156,7 +160,30 @@
 
 
     <pardef n="ئازادی__n">
-        <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="ش__vocalic"/></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ێك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ێكی</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>انی</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ەكەی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e><p><l>ەكانی</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
+        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+	<!-- ZWNJ stuff -->
+        <e r="LR"><p><l>ەكە‌ی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
     </pardef>
 
 
@@ -250,14 +277,33 @@
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
-    <!-- SECTION: Verbs -->
+    <!-- SECTION: Verbs -->‫
+
+    <pardef n="چ__vblex">
+      <e><p><l>م</l><r><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>‫یت‬</l><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>‫ی‬</l><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>‫ێت‬</l><r><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>‫ێ‬</l><r><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ی‬ن</l><r><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ن</l><r><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ن</l><r><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="دەچ__vblex">
+      <e><p><l></l><r><s n="pri"/></r></p><par n="چ__vblex"/></e>
+    </pardef>
+
+    <pardef n="دەچ__vblex_iv">
+      <e><p><l></l><r><s n="vblex"/><s n="iv"/></r></p><par n="دەچ__vblex"/></e>
+    </pardef>
 
     <!-- SECTION: Interjections -->
 
-    <!-- SECTION: Abbreviations -->
+    <!-- SECTION: Abbreviations  -->
 
 
-  </pardefs>
+</pardefs>
   <section id="main" type="standard">
     <!-- SECTION: Miscellaneous -->
 
@@ -309,8 +355,15 @@
 
     <!-- SECTION: Pronouns -->
 
+    <e lm="من"><i>من</i><par n="من__prn"/></e>
+    <e lm="تۆ"><i>تۆ</i><par n="تۆ__prn"/></e>
+    <e lm="ئەو"><i>ئەو</i><par n="ئەو__prn"/></e>
+    <e lm="ئێمە"><i>ئێمە</i><par n="ئێمە__prn"/></e>
+    <e lm="ئەمئێوە"><i>ئێوە</i><par n="ئێوە__prn"/></e>
+    <e lm="ئەوان"><i>ئەوان</i><par n="ئەوان__prn"/></e>
+
     <!-- SECTION: Determiners -->
-    <e lm="ئەم"><i>ئەم</i><par n="ئەم__det"/></e>
+    <e lm="ئەم"><i>ئەم</i><par n="من__prn"/></e>
     <e lm="ئەو"><i>ئەو</i><par n="ئەم__det"/></e>
     <!-- SECTION: Numerals -->
 
@@ -322,6 +375,9 @@
     <e lm="نایاسایی" r="LR"><i>نائاسایی</i><par n="درێژ__adj"/></e>
 
     <!-- SECTION: Nouns -->
+    <e lm="ئاگاداری"><i>ئاگاداری</i><par n="ئازادی__n"/></e>
+    <e lm="تەلەفۆن"><i>تەلەفۆن</i><par n="خانوو__n"/></e>
+    <e lm="کۆڕ"><i>کۆڕ</i><par n="خانوو__n"/></e>
     <e lm="پەناهەندە"><i>پەناهەندە</i><par n="خانوو__n"/></e>
     <e lm="پەنادان"><i>پەنادان</i><par n="خانوو__n"/></e>
     <e lm="کۆچکار"><i>کۆچکار</i><par n="خانوو__n"/></e>
@@ -346,6 +402,7 @@
     <e lm="خانوو"><i>خانوو</i><par n="خانوو__n"/></e>
     <e lm="باخچه"><i>باخچە</i><par n="خانوو__n"/></e>
     <e lm="باخچە"><i>باخچ</i><par n="نام_ه__n"/></e>
+    <e lm="دەستە"><i>دەست</i><par n="نام_ه__n"/></e>
     <e lm="بیرە"><i>بیر</i><par n="نام_ه__n"/></e>
     <e lm="پارە"><i>پار</i><par n="نام_ه__n"/></e>
     <e lm="پارچە"><i>پارچ</i><par n="نام_ه__n"/></e>
@@ -524,6 +581,9 @@
     <!-- SECTION: Adverbs -->
 
     <e lm="ئەمرۆ"><i>ئەمرۆ</i><par n="ئەمرۆ__adv"/></e>
+    <e lm="ئەوێ"><i>ئەوێ</i><par n="ئەمرۆ__adv"/></e>
+    <e lm="لەوێ"><i>لەوێ</i><par n="ئەمرۆ__adv"/></e>
+    <e lm="لەوێوە"><i>لەوێوە</i><par n="ئەمرۆ__adv"/></e>
 
     <e lm="پێك"><i>پێك</i><par n="ئەمرۆ__adv"/></e>
     <e lm="دوای"><i>دوای</i><par n="ئەمرۆ__adv"/></e>
@@ -531,6 +591,7 @@
 
 
     <!-- SECTION: Verbs -->
+    <e lm="چوون"><p><l>دەچ</l><r>چوون</r></p><par n="دەچ__vblex_iv"/></e>
 
     <!-- SECTION: Interjections -->
 
