@@ -32,11 +32,15 @@
     <sdef n="p1xpl"       c="Possessor"/>
     <sdef n="p2xpl"       c="Possessor"/>
     <sdef n="p3xpl"       c="Possessor"/>
+    <sdef n="pro"       c="With Pronominal Clitic"/>
     <sdef n="iv"       c="Intransitive"/>
     <sdef n="tv"       c="Transitive"/>
     <sdef n="neg"       c="Negative"/>
     <sdef n="vblex"       c="Lexical verb"/>
+    <sdef n="vbcop"       c="Copula"/>
+    <sdef n="vbhaver"       c=""/>
     <sdef n="pri"       c="Present indicative"/>
+    <sdef n="past"       c="Past"/>
     <sdef n="sent"     c="End-of-sentence marker"/>
   </sdefs>
   <pardefs>
@@ -128,12 +132,12 @@
 
     <pardef n="_بە__pr">
       <e><p><l>بە</l><r>بە<s n="pr"/></r></p></e>
-      <e><p><l>پێ</l><r>بە<s n="pr"/></r></p><par n="pers__prn_clt"/></e>
+      <e><p><l>پێ</l><r>بە<s n="pr"/><s n="pro"/></r></p><par n="pers__prn_clt"/></e>
     </pardef>
 
     <pardef n="_دە__pr">
       <e><p><l>دە</l><r>دە<s n="pr"/></r></p></e>
-      <e><p><l>تێ</l><r>دە<s n="pr"/></r></p><par n="pers__prn_clt"/></e>
+      <e><p><l>تێ</l><r>دە<s n="pr"/><s n="pro"/></r></p><par n="pers__prn_clt"/></e>
     </pardef>
 
     <pardef n="بەر__pr">
@@ -279,6 +283,44 @@
     </pardef>
 
     <!-- SECTION: Verbs -->
+
+    <pardef n="بوون__clt_cons">
+      <e><p><l>م</l><r><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ی</l><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>یت</l><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ە</l><r><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ین</l><r><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ن</l><r><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ن</l><r><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="بوون__clt_voc">
+      <e><p><l>م</l><r><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ی</l><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>یت</l><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>یە</l><r><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ین</l><r><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ن</l><r><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ن</l><r><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="هەبوون__vbhaver">
+	<e><p><l>هەیە</l><r>هەبوون<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+	<e><p><l>هەبوو</l><r>هەبوون<s n="vbhaver"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+	<e><p><l>هەبوون</l><r>هەبوون<s n="vbhaver"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+	<e><p><l>هەنەبوو</l><r>هەبوون<s n="vbhaver"/><s n="past"/><s n="neg"/><s n="p3"/><s n="sg"/></r></p></e>
+	<e><p><l>هەنەبوون</l><r>هەبوون<s n="vbhaver"/><s n="past"/><s n="neg"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="بوون__vbcop_neg">
+      <e><p><l>نیم</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="neg"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>نیی</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="neg"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>نییت</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="neg"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>نیە</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="neg"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>نیین</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="neg"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>نین</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="neg"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>نین</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="neg"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
 
     <pardef n="هاتن__vblex_iv">
       <e c="Sulaymani"><p><l>یەم</l><r><s n="p1"/><s n="sg"/></r></p></e>
@@ -494,7 +536,10 @@
     <e lm="نایاسایی" r="LR"><i>نائاسایی</i><par n="درێژ__adj"/></e>
 
     <!-- SECTION: Nouns -->
-    <e lm="سنورداشکردنەوە"><i>سنورداشکردنەوە</i><par n="خانوو__n"/></e>
+    <e lm="شار"><i>شار</i><par n="خانوو__n"/></e>
+    <e lm="نەتەوە"><i>نەتەوە</i><par n="نام_ه__n"/></e>
+    <e lm="ئاسایش"><i>ئاسایش</i><par n="خانوو__n"/></e>
+    <e lm="سنورداشکردنەوە"><i>سنورداشکردنەو</i><par n="نام_ه__n"/></e>
     <e lm="بەدەرکردن"><i>بەدەرکردن</i><par n="خانوو__n"/></e>
     <e lm="تێکەڵکردن"><i>تێکەڵکردن</i><par n="خانوو__n"/></e>
     <e lm="تواندنەوە"><i>تواندنەو</i><par n="نام_ه__n"/></e>
@@ -723,6 +768,10 @@
 
 
     <!-- SECTION: Verbs -->
+    <e lm="بوون"><i></i><par n="بوون__vbcop_neg"/></e>
+   <e lm="هەبوون"><i></i><par n="هەبوون__vbhaver"/></e>
+
+
     <e lm="هاتن"><p><l></l><r>هاتن</r></p><par n="هاتن__vblex_iv"/></e>
 
     <e lm="چوون"><p><l>دەچ</l><r>چوون</r></p><par n="دەچ__vblex_iv"/></e>

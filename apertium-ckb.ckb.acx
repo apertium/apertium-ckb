@@ -4,6 +4,12 @@
   <char value="ك">
     <equiv-char value="ک"/>
   </char>
+  <char value="ھ">
+    <equiv-char value="ه"/>
+  </char>
+  <char value="ھ">
+    <equiv-char value="ﻩ"/>
+  </char>
   <char value="ک">
     <equiv-char value="ك"/>
   </char>
