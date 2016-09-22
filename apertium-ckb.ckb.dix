@@ -23,6 +23,7 @@
     <sdef n="dem"       c="Demonstrative"/>
     <sdef n="pers"       c="Personal"/>
     <sdef n="num"       c="Number"/>
+    <sdef n="ord"       c="Ordinal"/>
     <sdef n="p1"       c="Number"/>
     <sdef n="p2"       c="Number"/>
     <sdef n="p3"       c="Number"/>
@@ -158,11 +159,24 @@
 
     <!-- SECTION: Numerals -->
 
+    <pardef n="یەك__num">
+      <e><p><l></l><r><s n="num"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="دوو__num">
+      <e><p><l></l><r><s n="num"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="یەكەم__num">
+      <e><p><l></l><r><s n="num"/><s n="ord"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="دووھەم__num">
+      <e><p><l></l><r><s n="num"/><s n="ord"/><s n="pl"/></r></p></e>
+    </pardef>
 
 
     <!-- SECTION: Nouns -->
-
-
 
     <pardef n="ئازادی__n">
         <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="ش__vocalic"/></e>
@@ -529,7 +543,61 @@
     <!-- SECTION: Determiners -->
     <e lm="ئەم"><i>ئەم</i><par n="من__prn"/></e>
     <e lm="ئەو"><i>ئەو</i><par n="ئەم__det"/></e>
-    <!-- SECTION: Numerals -->
+
+    <!-- SECTION: Cardinal Numerals -->
+    <e lm="یەك"><i>یەك</i><par n="یەك__num"/></e>
+    <e lm="دوو"><i>دوو</i><par n="دوو__num"/></e>
+    <e lm="سێ"><i>سێ</i><par n="دوو__num"/></e>
+    <e lm="چوار"><i>چوار</i><par n="دوو__num"/></e>
+    <e lm="پێنج"><i>پێنج</i><par n="دوو__num"/></e>
+    <e lm="شەش"><i>شەش</i><par n="دوو__num"/></e>
+    <e lm="حەوت"><i>حەوت</i><par n="دوو__num"/></e>
+    <e lm="ھەشت"><i>ھەشت</i><par n="دوو__num"/></e>
+    <e lm="نە"><i>نە</i><par n="دوو__num"/></e>
+    <e lm="دە"><i>دە</i><par n="دوو__num"/></e>
+
+    <e lm="یانزە"><i>یانزە</i><par n="دوو__num"/></e>
+    <e lm="دوازە"><i>دوازە</i><par n="دوو__num"/></e>
+    <e lm="سیانزە"><i>سیانزە</i><par n="دوو__num"/></e>
+    <e lm="چواردە"><i>چوارە</i><par n="دوو__num"/></e>
+    <e lm="پانزە"><i>پانزە</i><par n="دوو__num"/></e>
+    <e lm="شانزە"><i>شانزە</i><par n="دوو__num"/></e>
+    <e lm="حەڤدە"><i>حەڤدە</i><par n="دوو__num"/></e>
+    <e lm="ھەژدە"><i>ھەژدە</i><par n="دوو__num"/></e>
+    <e lm="نوزدە"><i>نوزدە</i><par n="دوو__num"/></e>
+
+    <e lm="بیست"><i>بیست</i><par n="دوو__num"/></e>
+    <e lm="سی"><i>سی</i><par n="دوو__num"/></e>
+    <e lm="چل"><i>چل</i><par n="دوو__num"/></e>
+    <e lm="پەنجا"><i>پەنجا</i><par n="دوو__num"/></e>
+    <e lm="شەست"><i>شەست</i><par n="دوو__num"/></e>
+    <e lm="حەفتا"><i>حەفتا</i><par n="دوو__num"/></e>
+    <e lm="ھەشتا"><i>ھەشتا</i><par n="دوو__num"/></e>
+    <e lm="نەود"><i>نەود</i><par n="دوو__num"/></e>
+
+    <e lm="سەد"><i>سەد</i><par n="دوو__num"/></e>
+    <e lm="ھەزار"><i>ھەزار</i><par n="دوو__num"/></e>
+
+    <!-- SECTION: Ordinal Numerals -->
+
+    <e lm="یەك"><i>یەكەم</i><par n="یەكەم__num"/></e>
+    <e lm="سێ"><i>سێھەم</i><par n="دووھەم__num"/></e>
+    <e lm="چوار"><i>چوارەم</i><par n="دووھەم__num"/></e>
+    <e lm="پێنج"><i>پێنجەم</i><par n="دووھەم__num"/></e>
+    <e lm="شەش"><i>شەشەم</i><par n="دووھەم__num"/></e>
+    <e lm="حەوت"><i>حەوتەم</i><par n="دووھەم__num"/></e>
+    <e lm="ھەشت"><i>ھەشتەم</i><par n="دووھەم__num"/></e>
+    <e lm="نە"><i>نەھەم</i><par n="دووھەم__num"/></e>
+    <e lm="دە"><i>دەھەم</i><par n="دووھەم__num"/></e>
+
+<!--<pardef n="یەكەم__num">
+      <e><p><l></l><r><s n="num"/><s n="ord"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="دووھەم__num">
+      <e><p><l></l><r><s n="num"/><s n="ord"/><s n="pl"/></r></p></e>
+    </pardef> -->
+
 
     <!-- SECTION: Adjectives -->
 
