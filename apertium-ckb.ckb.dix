@@ -579,8 +579,9 @@
     <e lm="ئەوان"><i>ئەوان</i><par n="ئەوان__prn"/></e>
 
     <!-- SECTION: Determiners -->
-    <e lm="ئەم"><i>ئەم</i><par n="من__prn"/></e>
+    <e lm="ئەم"><i>ئەم</i><par n="ئەم__det"/></e>
     <e lm="ئەو"><i>ئەو</i><par n="ئەم__det"/></e>
+    <e lm="ھەموو"><i>ھەموو</i><par n="ئەم__det"/></e>
 
     <!-- SECTION: Cardinal Numerals -->
     <e lm="یەك"><i>یەك</i><par n="یەك__num"/></e>
