@@ -1,7 +1,7 @@
 "<ئەم>"
 	"ئەم" det dem sg @det #1->2
 "<دەرمانە>"
-	"دەرمان" n sg abs ezaclo @obj #2->4
+	"دەرمان" n sg abs ezaclo @dobj #2->4
 "<رۆژانە>"
 	"رۆژانە" adj @amod #3->2
 "<دەخۆم>"

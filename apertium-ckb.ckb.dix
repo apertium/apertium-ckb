@@ -7,6 +7,7 @@
     <sdef n="adj"      c="Adjective"/>
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
     <sdef n="cnjsub"   c="Subordinating conjunction"/>
+    <sdef n="clt"   c="Clitic"/>
     <sdef n="pr"       c="Preposition"/>
     <sdef n="post"       c="Postposition"/>
     <sdef n="prn"       c="Pronoun"/>
@@ -26,6 +27,7 @@
     <sdef n="ord"       c="Ordinal"/>
     <sdef n="p1"       c="Number"/>
     <sdef n="p2"       c="Number"/>
+    <sdef n="qnt"       c=""/>
     <sdef n="p3"       c="Number"/>
     <sdef n="p1xsg"       c="Possessor"/>
     <sdef n="p2xsg"       c="Possessor"/>
@@ -155,6 +157,10 @@
     <pardef n="ئەم__det">
       <e><p><l></l><r><s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
       <e><p><l></l><r><s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="ھەموو__det">
+      <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Numerals -->
@@ -581,7 +587,7 @@
     <!-- SECTION: Determiners -->
     <e lm="ئەم"><i>ئەم</i><par n="ئەم__det"/></e>
     <e lm="ئەو"><i>ئەو</i><par n="ئەم__det"/></e>
-    <e lm="ھەموو"><i>ھەموو</i><par n="ئەم__det"/></e>
+    <e lm="ھەموو"><i>ھەموو</i><par n="ھەموو__det"/></e>
 
     <!-- SECTION: Cardinal Numerals -->
     <e lm="یەك"><i>یەك</i><par n="یەك__num"/></e>
@@ -634,7 +640,8 @@
 
 
     <!-- SECTION: Adjectives -->
-
+    <e lm="توند"><i>توند</i><par n="درێژ__adj"/></e>
+    <e lm="رۆژانە"><i>رۆژان</i><par n="گەور_ە__adj"/></e>
     <e lm="رۆژانە"><i>رۆژان</i><par n="گەور_ە__adj"/></e>
     <e lm="گەورە"><i>گەور</i><par n="گەور_ە__adj"/></e>
     <e lm="درێژ"><i>درێژ</i><par n="درێژ__adj"/></e>
@@ -643,6 +650,8 @@
     <e lm="نایاسایی" r="LR"><i>نائاسایی</i><par n="درێژ__adj"/></e>
 
     <!-- SECTION: Nouns -->
+
+      <e lm="نەخۆشی"><i>نەخۆشی</i><par n="ئازادی__n"/></e>
       <e lm="خەڵک"><i>خەڵک</i><par n="خانوو__n"/></e>
       <e lm="هەست"><i>هەست</i><par n="خانوو__n"/></e>
       <e lm="ناو"><i>ناو</i><par n="خانوو__n"/></e>
@@ -944,13 +953,15 @@
       <e lm="پا"><i>پا</i><par n="خانوو__n"/></e>
       <e lm="بۆمبا"><i>بۆمبا</i><par n="خانوو__n"/></e>
       <e lm="کارەبا"><i>کارەبا</i><par n="خانوو__n"/></e>
+      <e lm="کەس"><i>کەس</i><par n="خانوو__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 
 
 
     <!-- SECTION: Adverbs -->
-
+    <e lm="هەرگیز"><i>هەرگیز</i><par n="ئەمرۆ__adv"/></e>
+    <e lm="تەنها"><i>تەنها</i><par n="ئەمرۆ__adv"/></e>
     <e lm="ئەمرۆ"><i>ئەمرۆ</i><par n="ئەمرۆ__adv"/></e>
     <e lm="ئەوێ"><i>ئەوێ</i><par n="ئەمرۆ__adv"/></e>
     <e lm="لەوێ"><i>لەوێ</i><par n="ئەمرۆ__adv"/></e>
