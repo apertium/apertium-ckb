@@ -478,6 +478,40 @@
       <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="neg"/></r></p><par n="دەگەڕ__vblex"/></e>
     </pardef>
 
+   <pardef n="خوارد_ن__vblex_non-preceding">
+<!-- This paradigm is ONLY for positive past tense inflections, when the personal pronoun can find absolutely nothing to attach to. -->
+      <e><p><l>دەك</l><r><s n="vblex"/><s n="tv"/></r></p><par n="دەك__vblex"/></e>
+      <e><p><l>نەدەك</l><r><s n="vblex"/><s n="tv"/><s n="neg"/></r></p><par n="دەك__vblex"/></e>
+    </pardef>
+
+
+   <pardef n="كردن__vblex_lvc">
+      <e><p><l>دەك</l><r><s n="vblex"/><s n="tv"/></r></p><par n="دەك__vblex"/></e>
+      <e><p><l>نەدەك</l><r><s n="vblex"/><s n="tv"/><s n="neg"/></r></p><par n="دەك__vblex"/></e>
+    </pardef>
+
+
+
+
+<!-- 
+    <pardef n="verb">
+      <e><p><l></l><r><s n="vblex"/></r></p></e>
+    </pardef>
+    <pardef n="pron-clit">
+      <e><p><l>im</l><r>m<s n="p1"/><j/></r></p></e>
+      <e><p><l>i</l><r>i<s n="p3"/><j/></r></p></e>
+    </pardef>
+  </pardefs>
+ <section id="main" type="standard">
+   <e lm="bang daka"><p><l>bang</l><r></r></p><par n="pron-clit"/><p><l><b/>daka</l><r>bang<b/>daka</r></p><par n="verb"/></e>
+ </section>
+</dictionary>
+   <pardef n="verb">
+       <e><p><l>im</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+       <e><p><l>it</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+       <e><p><l></l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+     </pardef>
+-->
     <!-- SECTION: Interjections -->
 
     <!-- SECTION: Abbreviations  -->
@@ -600,6 +634,7 @@
 
     <!-- SECTION: Adjectives -->
 
+    <e lm="رۆژانە"><i>رۆژان</i><par n="گەور_ە__adj"/></e>
     <e lm="گەورە"><i>گەور</i><par n="گەور_ە__adj"/></e>
     <e lm="درێژ"><i>درێژ</i><par n="درێژ__adj"/></e>
     <e lm="سوور"><i>سوور</i><par n="درێژ__adj"/></e>
@@ -607,6 +642,8 @@
     <e lm="نایاسایی" r="LR"><i>نائاسایی</i><par n="درێژ__adj"/></e>
 
     <!-- SECTION: Nouns -->
+      <e lm="خەڵک"><i>خەڵک</i><par n="خانوو__n"/></e>
+      <e lm="هەست"><i>هەست</i><par n="خانوو__n"/></e>
       <e lm="ناو"><i>ناو</i><par n="خانوو__n"/></e>
       <e lm="ڕێکخراو"><i>ڕێکخراو</i><par n="خانوو__n"/></e>
       <e lm="شوێن"><i>شوێن</i><par n="خانوو__n"/></e>
@@ -719,6 +756,7 @@
     <e lm="جامعە"><i>جامع</i><par n="نام_ە__n"/></e>
     <e lm="قوتابخانه"><i>قوتابخان</i><par n="نام_ە__n"/></e>
     <e lm="چایخانە"><i>چایخان</i><par n="نام_ە__n"/></e>
+    <e lm="ژمارە"><i>ژمار</i><par n="نام_ە__n"/></e>
     <e lm="دەرمانخانە"><i>دەرمانخان</i><par n="نام_ە__n"/></e>
     <e lm="زانستگە"><i>زانستگ</i><par n="نام_ە__n"/></e>
     <e lm="ڕۆژنامە"><i>ڕۆژنام</i><par n="نام_ە__n"/></e>
@@ -932,29 +970,29 @@
     <e lm="چوون"><p><l>دەچ</l><r>چوون</r></p><par n="دەچ__vblex_iv"/></e>
     <e lm="چوون"><p><l>دەچ</l><r>چوون</r></p><par n="نەدەچ__vblex_iv"/></e>
 
-    <e lm="‫نووسين‬"><p><l>دەنووس</l><r>‫نووسين‬</r></p><par n="دەنووس__vblex_tv"/></e>
-    <e lm="‫نووسين‬"><p><l>نەدەنووس</l><r>‫نووسين‬</r></p><par n="نەدەنووس__vblex_tv"/></e>
+    <e lm="نووسين"><p><l>دەنووس</l><r>نووسين</r></p><par n="دەنووس__vblex_tv"/></e>
+    <e lm="نووسين"><p><l>نەدەنووس</l><r>نووسين</r></p><par n="نەدەنووس__vblex_tv"/></e>
 
-    <e lm="‫كردن‬"><p><l>دەك</l><r>‫كردن‬</r></p><par n="دەك__vblex_tv"/></e>
-    <e lm="كردن‬"><p><l>نەدەك</l><r>‫كردن‬</r></p><par n="نەدەك__vblex_tv"/></e>
+    <e lm="كردن"><p><l>دەك</l><r>كردن</r></p><par n="دەك__vblex_tv"/></e>
+    <e lm="كردن"><p><l>نەدەك</l><r>كردن</r></p><par n="نەدەك__vblex_tv"/></e>
 
-    <e lm="‫گرتن‬"><p><l>دەگر</l><r>‫گرتن‬</r></p><par n="دەنووس__vblex_tv"/></e>
-    <e lm="گرتن‬"><p><l>نەدەگر</l><r>‫گرتن‬</r></p><par n="نەدەنووس__vblex_tv"/></e>
+    <e lm="گرتن"><p><l>دەگر</l><r>گرتن</r></p><par n="دەنووس__vblex_tv"/></e>
+    <e lm="گرتن"><p><l>نەدەگر</l><r>گرتن</r></p><par n="نەدەنووس__vblex_tv"/></e>
 
-    <e lm="‫خستن‬"><p><l>دەخ</l><r>‫خستن‬</r></p><par n="دەك__vblex_tv"/></e>
-    <e lm="خستن‬"><p><l>نەدەخ</l><r>‫خستن‬</r></p><par n="نەدەك__vblex_tv"/></e>
+    <e lm="خستن"><p><l>دەخ</l><r>خستن</r></p><par n="دەك__vblex_tv"/></e>
+    <e lm="خستن"><p><l>نەدەخ</l><r>خستن</r></p><par n="نەدەك__vblex_tv"/></e>
 
-    <e lm="‫بردن‬"><p><l>دەب</l><r>‫بردن‬</r></p><par n="دەك__vblex_tv"/></e>
-    <e lm="بردن‬"><p><l>نەدەب</l><r>‫بردن‬</r></p><par n="نەدەك__vblex_tv"/></e>
+    <e lm="بردن"><p><l>دەب</l><r>بردن</r></p><par n="دەك__vblex_tv"/></e>
+    <e lm="بردن"><p><l>نەدەب</l><r>بردن</r></p><par n="نەدەك__vblex_tv"/></e>
 
-    <e lm="‫دان‬"><p><l>دەد</l><r>‫دان‬</r></p><par n="دەك__vblex_tv"/></e>
-    <e lm="دان‬"><p><l>نەدەد</l><r>‫دان‬</r></p><par n="نەدەك__vblex_tv"/></e>
+    <e lm="دان"><p><l>دەد</l><r>دان</r></p><par n="دەك__vblex_tv"/></e>
+    <e lm="دان"><p><l>نەدەد</l><r>دان</r></p><par n="نەدەك__vblex_tv"/></e>
 
-    <e lm="‫گەیشتن‬"><p><l>دەگ</l><r>‫گەیشتن‬</r></p><par n="دەك__vblex_tv"/></e>
-    <e lm="گەیشتن‬"><p><l>نەدەگ</l><r>‫گەیشتن‬</r></p><par n="نەدەك__vblex_tv"/></e>
+    <e lm="گەیشتن"><p><l>دەگ</l><r>گەیشتن</r></p><par n="دەك__vblex_tv"/></e>
+    <e lm="گەیشتن"><p><l>نەدەگ</l><r>گەیشتن</r></p><par n="نەدەك__vblex_tv"/></e>
 
-    <e lm="‫خواردن‬"><p><l>دەخ</l><r>‫خواردن‬</r></p><par n="دەخ_ۆ__vblex_tv"/></e>
-    <e lm="خواردن‬"><p><l>نەدەخ</l><r>‫خواردن‬</r></p><par n="نەدەخ_ۆ__vblex_tv"/></e>
+    <e lm="خواردن"><p><l>دەخ</l><r>خواردن</r></p><par n="دەخ_ۆ__vblex_tv"/></e>
+    <e lm="خواردن"><p><l>نەدەخ</l><r>خواردن</r></p><par n="نەدەخ_ۆ__vblex_tv"/></e>
 
     <e lm="شتن"><p><l>دەش</l><r>شتن</r></p><par n="دەش_ۆ__vblex_iv"/></e>
     <e lm="شتن"><p><l>نەدەش</l><r>شتن</r></p><par n="نەدەش_ۆ__vblex_iv"/></e>
