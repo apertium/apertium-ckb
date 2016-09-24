@@ -1,0 +1,12 @@
+"<ئەم>"
+	"ئەم" prn pers p1 sg @nsubj #1->4
+"<دەرمانە>"
+	"دەرمان" n sg abs ezaclo @obj #2->4
+"<رۆژانە>"
+	"رۆژانە" adj @amod #3->2
+"<دەخۆم>"
+	"خواردن" vblex tv pri p1 sg @root #4->0
+"<.>"
+	"." @punct #5->4
+
+
