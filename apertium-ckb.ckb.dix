@@ -502,16 +502,6 @@
       <e><p><l>ەن</l><r><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
-
-    <pardef n="گەڕ_ەوە__vblex">
-      <e><p><l>ێمەوە</l><r><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>یێتەوە</l><r><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ێتەوە</l><r><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ێینەوە</l><r><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ێنەوە</l><r><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>ێنەوە</l><r><s n="p3"/><s n="pl"/></r></p></e>
-    </pardef>
-
     <pardef n="ك_ەوە__vblex">
       <e><p><l>ەمەوە</l><r><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ەیتەوە</l><r><s n="p2"/><s n="sg"/></r></p></e>
@@ -519,6 +509,15 @@
       <e><p><l>ەینەوە</l><r><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ەنەوە</l><r><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ەنەوە</l><r><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="گەڕ_ەوە__vblex">
+      <e><p><l>ێمەوە</l><r><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ێیتەوە</l><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ێتەوە</l><r><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ێینەوە</l><r><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ێنەوە</l><r><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ێنەوە</l><r><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
 
@@ -544,6 +543,11 @@
     <pardef n="دەك__vblex">
       <e><p><l></l><r><s n="pri"/></r></p><par n="ك__vblex"/></e>
     </pardef>
+
+    <pardef n="دەك_ەوە__vblex">
+      <e><p><l></l><r><s n="pri"/></r></p><par n="ك_ەوە__vblex"/></e>
+    </pardef>
+
 
     <pardef n="دەخ_ۆ__vblex_tv">
       <e><p><l></l><r><s n="vblex"/><s n="tv"/></r></p><par n="دەخ_ۆ__vblex"/></e>
@@ -602,15 +606,34 @@
       <e><p><l></l><r><s n="vblex"/><s n="iv"/></r></p><par n="دەگەڕ__vblex"/></e>
     </pardef>
 
+    <pardef n="دەگەڕ_ەوە__vblex">
+      <e><p><l></l><r><s n="pri"/></r></p><par n="گەڕ_ەوە__vblex"/></e>
+    </pardef>
+
     <pardef n="نەدەگەڕ__vblex_iv">
       <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="neg"/></r></p><par n="دەگەڕ__vblex"/></e>
     </pardef>
 
-   <pardef n="خوارد_ن__vblex_non-preceding">
-<!-- This paradigm is ONLY for positive past tense inflections, when the personal pronoun can find absolutely nothing to attach to. -->
-      <e><p><l>دەك</l><r><s n="vblex"/><s n="tv"/></r></p><par n="دەك__vblex"/></e>
-      <e><p><l>نەدەك</l><r><s n="vblex"/><s n="tv"/><s n="neg"/></r></p><par n="دەك__vblex"/></e>
+    <pardef n="دەگەڕ_ەوە__vblex_iv">
+      <e><p><l></l><r><s n="vblex"/><s n="iv"/></r></p><par n="دەگەڕ_ەوە__vblex"/></e>
     </pardef>
+
+    <pardef n="نەدەگەڕ_ەوە__vblex_iv">
+      <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="neg"/></r></p><par n="دەگەڕ_ەوە__vblex"/></e>
+    </pardef>
+
+    <pardef n="دەك_ەوە__vblex_tv">
+      <e><p><l></l><r><s n="vblex"/><s n="tv"/></r></p><par n="دەك_ەوە__vblex"/></e>
+    </pardef>
+
+    <pardef n="نەدەك_ەوە__vblex_tv">
+      <e><p><l></l><r><s n="vblex"/><s n="tv"/><s n="neg"/></r></p><par n="دەك_ەوە__vblex"/></e>
+    </pardef>
+
+<!-- 
+   <pardef n="خوارد_ن__vblex_non-preceding">
+This paradigm is ONLY for positive past tense inflections, when the personal pronoun can find absolutely nothing to attach to. 
+    </pardef>-->
 
 
    <pardef n="كردن__vblex_lvc">
@@ -1300,6 +1323,8 @@
 
     <!-- SECTION: Verbs - Autogen -->
 
+
+    <!-- SECTION: Verbs - Manual -->
     <e lm="بوون"><i></i><par n="بوون__vbcop"/></e>
     <e lm="ھەبوون"><i></i><par n="ھەبوون__vbhaver"/></e>
 
@@ -1317,6 +1342,10 @@
 
     <e lm="كردن"><p><l>دەك</l><r>كردن</r></p><par n="دەك__vblex_tv"/></e>
     <e lm="كردن"><p><l>نەدەك</l><r>كردن</r></p><par n="نەدەك__vblex_tv"/></e>
+
+    <e lm="كردنەوە"><p><l>دەك</l><r>كردنەوە</r></p><par n="دەك_ەوە__vblex_tv"/></e>
+    <e lm="كردنەوە"><p><l>نەدەك</l><r>كردنەوە</r></p><par n="نەدەك_ەوە__vblex_tv"/></e>
+
 
     <e lm="توانین"><p><l>دەتوان</l><r>توانین</r></p><par n="دەتوان__vbmod"/></e>
     <e lm="توانین"><p><l>نەدەتوان</l><r>توانین</r></p><par n="نەدەتوان__vbmod"/></e>
@@ -1345,8 +1374,11 @@
     <e lm="شتن"><p><l>دەش</l><r>شتن</r></p><par n="دەش_ۆ__vblex_iv"/></e>
     <e lm="شتن"><p><l>نەدەش</l><r>شتن</r></p><par n="نەدەش_ۆ__vblex_iv"/></e>
 
-    <e lm="گەڕان"><p><l>گەڕ</l><r>گەڕان</r></p><par n="دەگەڕ__vblex_iv"/></e>
-    <e lm="گەڕان"><p><l>نەدگەڕ</l><r>گەڕان</r></p><par n="نەدەگەڕ__vblex_iv"/></e>
+    <e lm="گەڕان"><p><l>دەگەڕ</l><r>گەڕان</r></p><par n="دەگەڕ__vblex_iv"/></e>
+    <e lm="گەڕان"><p><l>نەدەگەڕ</l><r>گەڕان</r></p><par n="نەدەگەڕ__vblex_iv"/></e>
+
+    <e lm="گەڕانەوە"><p><l>دەگەڕ</l><r>گەڕانەوە</r></p><par n="دەگەڕ_ەوە__vblex_iv"/></e>
+    <e lm="گەڕانەوە"><p><l>نەدەگەڕ</l><r>گەڕانەوە</r></p><par n="نەدەگەڕ_ەوە__vblex_iv"/></e>
 
 <!--<par n="دەخ_ۆ__vblex_tv"/>
     <par n="نەدەخ_ۆ__vblex_tv"/>
