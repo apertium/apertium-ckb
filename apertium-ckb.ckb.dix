@@ -180,6 +180,11 @@
       <e><p><l></l><r><s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="هەر__det">
+      <e><p><l></l><r><s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+    </pardef>
+
+
     <pardef n="ھەموو__det">
       <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
     </pardef>
@@ -860,7 +865,8 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
     <e lm="ئەمئێوە"><i>ئێوە</i><par n="ئێوە__prn"/></e>
     <e lm="ئەوان"><i>ئەوان</i><par n="ئەوان__prn"/></e>
 
-    <!-- SECTION: Determiners -->
+    <!-- SECTION: Determiners -->   
+    <e lm="ئەم"><i>هەر</i><par n="هەر__det"/></e>
     <e lm="ئەم"><i>ئەم</i><par n="ئەم__det"/></e>
     <e lm="ئەو"><i>ئەو</i><par n="ئەم__det"/></e>
     <e lm="ھەموو"><i>ھەموو</i><par n="ھەموو__det"/></e>
@@ -928,6 +934,41 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
     <e lm="سوور"><i>سوور</i><par n="درێژ__adj"/></e>
     <e lm="نایاسایی"><i>نایاسایی</i><par n="درێژ__adj"/></e>
     <e lm="نایاسایی" r="LR"><i>نائاسایی</i><par n="درێژ__adj"/></e>
+     <e lm="نەخۆش"><i>نەخۆش</i><par n="درێژ__adj"/></e>
+     <e lm="دووگیان"><i>دووگیان</i><par n="درێژ__adj"/></e>
+     <e lm="سارد"><i>سارد</i><par n="درێژ__adj"/></e>
+     <e lm="خراپ"><i>خراپ</i><par n="درێژ__adj"/></e>
+     <e lm="باش"><i>باش</i><par n="درێژ__adj"/></e>
+     <e lm="خەمبار"><i>خەمبار</i><par n="درێژ__adj"/></e>
+     <e lm="لاقە"><i>لاق</i><par n="گەور_ە__adj"/></e>
+     <e lm="نەخۆش"><i>نەخۆش</i><par n="درێژ__adj"/></e>
+     <e lm="ئازار"><i>ئازار</i><par n="درێژ__adj"/></e>
+     <e lm="برسی"><i>برسی</i><par n="درێژ__adj"/></e>
+     <e lm="سەرەگێژە"><i>سەرەگێژ</i><par n="گەور_ە__adj"/></e>
+     <e lm="درێژخایەن"><i>درێژخایەن</i><par n="درێژ__adj"/></e>
+     <e lm="هەستەوەر"><i>هەستەوەر</i><par n="درێژ__adj"/></e>
+     <e lm="خیزەخیز"><i>خیزەخیز</i><par n="درێژ__adj"/></e>
+     <e lm="لاواز"><i>لاواز</i><par n="درێژ__adj"/></e>
+     <e lm="لەهۆشچوو"><i>لەهۆشچوو</i><par n="درێژ__adj"/></e>
+     <e lm="تینو"><i>تینو</i><par n="درێژ__adj"/></e>
+     <e lm="تیژ"><i>تیژ</i><par n="درێژ__adj"/></e>
+     <e lm="ترس"><i>ترس</i><par n="درێژ__adj"/></e>
+     <e lm="لەکارکەوتو"><i>لەکارکەوتو</i><par n="درێژ__adj"/></e>
+     <e lm="سڕ "><i>سڕ </i><par n="درێژ__adj"/></e>
+     <e lm="دواجار"><i>دواجار</i><par n="درێژ__adj"/></e>
+     <e lm="نائاسایی"><i>نائاسایی</i><par n="درێژ__adj"/></e>
+     <e lm="بریندار"><i>بریندار</i><par n="درێژ__adj"/></e>
+     <e lm="دڵخۆش"><i>دڵخۆش</i><par n="درێژ__adj"/></e>
+     <e lm="حەڵاڵ"><i>حەڵاڵ</i><par n="درێژ__adj"/></e>
+     <e lm="ترساو"><i>ترساو</i><par n="درێژ__adj"/></e>
+     <e lm="بەستوو"><i>بەستوو</i><par n="درێژ__adj"/></e>
+     <e lm="بوراوە"><i>بوراو</i><par n="گەور_ە__adj"/></e>
+     <e lm="کول"><i>کول</i><par n="درێژ__adj"/></e>
+     <e lm="شەکرەدار"><i>شەکرەدار</i><par n="درێژ__adj"/></e>
+     <e lm="خەمۆك"><i>خەمۆك</i><par n="درێژ__adj"/></e>
+     <e lm="دووجەمسەری"><i>دووجەمسەری</i><par n="درێژ__adj"/></e>
+     <e lm="خراپ "><i>خراپ </i><par n="درێژ__adj"/></e>
+     <e lm="تەنیا"><i>تەنیا</i><par n="درێژ__adj"/></e>
 
     <!-- SECTION: Nouns -->
 
