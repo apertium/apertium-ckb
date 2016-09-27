@@ -3,9 +3,6 @@
 function modifica_l(cad                ,PARTES)
 {
   split(cad, PARTES, "</l>");
-  gsub("ە", "ە‌", PARTES[1]);
-  gsub("ە$", "ە‌", PARTES[1]);
-  gsub("ە", "ه‌", PARTES[1]);
   gsub("ە", "ه‌", PARTES[1]);
   return PARTES[1] "</l>" PARTES[2]; 
 }

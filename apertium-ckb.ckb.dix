@@ -86,7 +86,6 @@
 
     <!-- SECTION: Clitics -->
     <pardef n="pers__prn_clt">
-      <e><p><l></l><r></r></p></e>
       <e><p><l>م</l><r></r></p><par n="من__prn"/></e>
       <e><p><l>ت</l><r></r></p><par n="تۆ__prn"/></e>
       <e><p><l>ی</l><r></r></p><par n="ئەو__prn"/></e>
@@ -132,28 +131,32 @@
 
     <pardef n="ل_ە__pr">
       <e><p><l>ە</l><r>ە<s n="pr"/></r></p></e>
-      <e><p><l>ێ</l><r>ە<s n="pr"/></r></p><par n="pers__prn_clt"/></e>
-      <e><p><l>ەم</l><r>ە<j/>من</r></p><par n="من__prn"/></e>
-      <e><p><l>ەت</l><r>ە<j/>تۆ</r></p><par n="تۆ__prn"/></e>
-      <e><p><l>ەو</l><r>ە<j/>ئەو</r></p><par n="ئەو__prn"/></e>
-      <e><p><l>ەمە</l><r>ە<j/>ئێمە</r></p><par n="ئێمە__prn"/></e>
-      <e><p><l>ەوە</l><r>ە<j/>ئێوە</r></p><par n="ئێوە__prn"/></e>
-      <e><p><l>ەوان</l><r>ە<j/>ئەوان</r></p><par n="ئەوان__prn"/></e> 
+      <e><p><l>ێ</l><r>ە<s n="pr"/><j/></r></p><par n="pers__prn_clt"/></e>
+      <e><p><l>ەم</l><r>ە<s n="pr"/><j/>من</r></p><par n="من__prn"/></e>
+      <e><p><l>ەت</l><r>ە<s n="pr"/><j/>تۆ</r></p><par n="تۆ__prn"/></e>
+      <e><p><l>ەو</l><r>ە<s n="pr"/><j/>ئەو</r></p><par n="ئەو__prn"/></e>
+      <e><p><l>ەمە</l><r>ە<s n="pr"/><j/>ئێمە</r></p><par n="ئێمە__prn"/></e>
+      <e><p><l>ەوە</l><r>ە<s n="pr"/><j/>ئێوە</r></p><par n="ئێوە__prn"/></e>
+      <e><p><l>ەوان</l><r>ە<s n="pr"/><j/>ئەوان</r></p><par n="ئەوان__prn"/></e> 
     </pardef>
 
     <pardef n="_بە__pr">
       <e><p><l>بە</l><r>بە<s n="pr"/></r></p></e>
-      <e r="LR"><p><l>بە</l><r>بە<s n="pr"/><s n="pro"/></r></p><par n="pers__prn_clt"/></e>
-      <e><p><l>پێ</l><r>بە<s n="pr"/><s n="pro"/></r></p><par n="pers__prn_clt"/></e>
+      <e r="LR"><p><l>بە</l><r>بە<s n="pr"/><s n="pro"/></r></p></e>
+      <e><p><l>پێ</l><r>بە<s n="pr"/><s n="pro"/></r></p></e>
+      <e r="LR"><p><l>بە</l><r>بە<s n="pr"/><s n="pro"/><j/></r></p><par n="pers__prn_clt"/></e>
+      <e><p><l>پێ</l><r>بە<s n="pr"/><s n="pro"/><j/></r></p><par n="pers__prn_clt"/></e>
     </pardef>
 
     <pardef n="_دە__pr">
       <e><p><l>دە</l><r>دە<s n="pr"/></r></p></e>
-      <e><p><l>تێ</l><r>دە<s n="pr"/><s n="pro"/></r></p><par n="pers__prn_clt"/></e>
+      <e><p><l>تێ</l><r>دە<s n="pr"/><s n="pro"/></r></p></e>
+      <e><p><l>تێ</l><r>دە<s n="pr"/><s n="pro"/><j/></r></p><par n="pers__prn_clt"/></e>
     </pardef>
 
     <pardef n="بەر__pr">
-      <e><p><l></l><r><s n="pr"/></r></p><par n="pers__prn_clt"/></e>
+      <e><p><l></l><r><s n="pr"/></r></p></e>
+      <e><p><l></l><r><s n="pr"/><j/></r></p><par n="pers__prn_clt"/></e>
     </pardef>
 
     <!-- SECTION: Postpositions -->
@@ -2533,23 +2536,24 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
     <e lm="خستن"><p><l>بخ</l><r>خستن</r></p><par n="بك__vblex_tv"/></e>
     <e lm="توانین"><p><l>نەدەتوان</l><r>توانین</r></p><par n="نەدەتوان__vbmod"/></e>
     <e lm="توانین"><p><l>دەتوان</l><r>توانین</r></p><par n="دەتوان__vbmod"/></e> 
-<!--<e lm="توانین"><p><l>نەتوان</l><r>توانین</r></p><par n="نەتوان__vbmod"/></e>
-    <e lm="توانین"><p><l>بتوان</l><r>توانین</r></p><par n="بتوان__vbmod"/></e>-->
-    <e lm="بردن"><p><l>نەدەب</l><r>بردن</r></p><par n="نەدەك__vblex_tv"/></e>
+<!--<e lm="توانین"><p><l>نەتوان</l><r>توانین</r></p><par n="نەتوان__vbmod"/></e>-->
+<!--    <e lm="توانین"><p><l>بتوان</l><r>توانین</r></p><par n="بتوان__vbmod"/></e>-->
+<!--    <e lm="بردن"><p><l>نەدەب</l><r>بردن</r></p><par n="نەدەك__vblex_tv"/></e>-->
     <e lm="بردن"><p><l>نەب</l><r>بردن</r></p><par n="نەك__vblex_tv"/></e>
     <e lm="بردن"><p><l>دەب</l><r>بردن</r></p><par n="دەك__vblex_tv"/></e>
     <e lm="بردن"><p><l>بب</l><r>بردن</r></p><par n="بك__vblex_tv"/></e>
 
-<!--<par n="دەخ_ۆ__vblex_tv"/>
-    <par n="نەدەخ_ۆ__vblex_tv"/>
-    <par n="دەش_ۆ__vblex_iv"/>
-    <par n="نەدەش_ۆ__vblex_iv"/>
-    <par n="دەچ__vblex_iv"/>
-    <par n="نەدەچ__vblex_iv"/>
-    <par n="دەنووس__vblex_tv"/>
-    <par n="نەدەنووس__vblex_tv"/>
-    <par n="دەك__vblex_tv"/>
-    <par n="نەدەك__vblex_tv"/> -->
+<!--<par n="دەخ_ۆ__vblex_tv"/>-->
+<!--    <par n="نەدەخ_ۆ__vblex_tv"/>-->
+<!--    <par n="دەش_ۆ__vblex_iv"/>-->
+<!--    <par n="نەدەش_ۆ__vblex_iv"/>-->
+<!--    <par n="دەچ__vblex_iv"/>-->
+<!--    <par n="نەدەچ__vblex_iv"/>-->
+<!--    <par n="دەنووس__vblex_tv"/>-->
+<!--    <par n="نەدەنووس__vblex_tv"/>-->
+<!--    <par n="دەك__vblex_tv"/>-->
+<!--    <par n="نەدەك__vblex_tv"/> -->
+
     <!-- SECTION: Interjections -->
 
     <!-- SECTION: Abbreviations -->

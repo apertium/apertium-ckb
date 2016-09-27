@@ -20,5 +20,5 @@ AP_MKINCLUDE
 
 AC_OUTPUT([Makefile apertium-ckb.pc])
 AC_OUTPUT([i_to_p.awk])
-AC_OUTPUT([sustituye_caracteres.awk])
 AC_OUTPUT([inline_e.awk])
+AC_OUTPUT([sustituye_caracteres.awk])
