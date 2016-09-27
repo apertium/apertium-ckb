@@ -13,7 +13,10 @@
 /autogen.sh -text
 /ckb.prob -text svneol=unset#unset
 /configure.ac -text
+/i_to_p.awk.in -text
+/inline_e.awk.in -text
 /modes.xml -text
+/sustituye_caracteres.awk.in -text
 texts/phrasebook.vislcg.txt -text
 texts/puupankki/puupankki.ckb.conllu -text
 texts/qalamara.txt -text svneol=unset#application/octet-stream
