@@ -57,341 +57,13 @@
     </pardef>
 
 
-    <!-- SECTION: Miscellaneous -->
-
-    <pardef n="ئایا__ques">
-      <e><p><l>ئایا</l><r><s n="ques"/></r></p></e>
-    </pardef>
-
-    <!-- SECTION: Pronouns -->
-    <pardef n="من__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
-    </pardef>
-    <pardef n="تۆ__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
-    </pardef>
-    <pardef n="ئەو__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
-    </pardef>
-    <pardef n="ئێمە__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
-    </pardef>
-    <pardef n="ئێوە__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
-    </pardef>
-    <pardef n="ئەوان__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
-    </pardef>
-
-
-    <!-- SECTION: Clitics -->
-    <pardef n="pers__prn_clt">
-      <e><p><l>م</l><r></r></p><par n="من__prn"/></e>
-      <e><p><l>ت</l><r></r></p><par n="تۆ__prn"/></e>
-      <e><p><l>ی</l><r></r></p><par n="ئەو__prn"/></e>
-      <e><p><l>مان</l><r></r></p><par n="ئێمە__prn"/></e>
-      <e><p><l>تان</l><r></r></p><par n="ئێوە__prn"/></e>
-      <e><p><l>یان</l><r></r></p><par n="ئەوان__prn"/></e>	
-    </pardef>
-
-    <pardef n="poss__agr">
-      <e><p><l></l><r></r></p></e>
-      <e><p><l>م</l><r><j/>من</r></p><par n="من__prn"/></e>
-      <e><p><l>ت</l><r><j/>تۆ</r></p><par n="تۆ__prn"/></e>
-      <e><p><l>ی</l><r><j/>ئەو</r></p><par n="ئەو__prn"/></e>
-      <e><p><l>مان</l><r><j/>ئێمە</r></p><par n="ئێمە__prn"/></e>
-      <e><p><l>تان</l><r><j/>ئێوە</r></p><par n="ئێوە__prn"/></e>
-      <e><p><l>یان</l><r><j/>ئەوان</r></p><par n="ئەوان__prn"/></e>	
-    </pardef>
-
-    <pardef n="ش__vocalic">
-        <e><p><l></l><r></r></p><par n="poss__agr"/></e>
-        <e><p><l></l><r></r></p><par n="poss__agr"/></e>
-        <e><p><l>ش</l><r><s n="emph"/></r></p><par n="poss__agr"/></e>
-    </pardef>
-
-    <pardef n="یش__consonantal">
-        <e><p><l></l><r></r></p><par n="poss__agr"/></e>
-        <e><p><l>یش</l><r><s n="emph"/></r></p><par n="poss__agr"/></e>
-    </pardef>
 
 
 
-    <!-- SECTION: Conjunctions -->
-
-    <pardef n="وە__cnjcoo">
-      <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
-    </pardef>
-
-    <pardef n="ئەگەر__cnjsub">
-      <e><p><l></l><r><s n="cnjsub"/></r></p></e>
-    </pardef>
-
-    <!-- SECTION: Prepositions -->
-
-    <pardef n="ل_ە__pr">
-      <e><p><l>ە</l><r>ە<s n="pr"/></r></p></e>
-      <e><p><l>ێ</l><r>ە<s n="pr"/><j/></r></p><par n="pers__prn_clt"/></e>
-      <e><p><l>ەم</l><r>ە<s n="pr"/><j/>من</r></p><par n="من__prn"/></e>
-      <e><p><l>ەت</l><r>ە<s n="pr"/><j/>تۆ</r></p><par n="تۆ__prn"/></e>
-      <e><p><l>ەو</l><r>ە<s n="pr"/><j/>ئەو</r></p><par n="ئەو__prn"/></e>
-      <e><p><l>ەمە</l><r>ە<s n="pr"/><j/>ئێمە</r></p><par n="ئێمە__prn"/></e>
-      <e><p><l>ەوە</l><r>ە<s n="pr"/><j/>ئێوە</r></p><par n="ئێوە__prn"/></e>
-      <e><p><l>ەوان</l><r>ە<s n="pr"/><j/>ئەوان</r></p><par n="ئەوان__prn"/></e> 
-    </pardef>
-
-    <pardef n="_بە__pr">
-      <e><p><l>بە</l><r>بە<s n="pr"/></r></p></e>
-      <e r="LR"><p><l>بە</l><r>بە<s n="pr"/><s n="pro"/></r></p></e>
-      <e><p><l>پێ</l><r>بە<s n="pr"/><s n="pro"/></r></p></e>
-      <e r="LR"><p><l>بە</l><r>بە<s n="pr"/><s n="pro"/><j/></r></p><par n="pers__prn_clt"/></e>
-      <e><p><l>پێ</l><r>بە<s n="pr"/><s n="pro"/><j/></r></p><par n="pers__prn_clt"/></e>
-    </pardef>
-
-    <pardef n="_دە__pr">
-      <e><p><l>دە</l><r>دە<s n="pr"/></r></p></e>
-      <e><p><l>تێ</l><r>دە<s n="pr"/><s n="pro"/></r></p></e>
-      <e><p><l>تێ</l><r>دە<s n="pr"/><s n="pro"/><j/></r></p><par n="pers__prn_clt"/></e>
-    </pardef>
-
-    <pardef n="بەر__pr">
-      <e><p><l></l><r><s n="pr"/></r></p></e>
-      <e><p><l></l><r><s n="pr"/><j/></r></p><par n="pers__prn_clt"/></e>
-    </pardef>
-
-    <!-- SECTION: Postpositions -->
-
-    <pardef n="ەوە__post_clt">
-      <e><p><l>ەوە</l><r><j/>ەوە<s n="post"/></r></p></e>
-    </pardef>
-
-    <pardef n="دا__post_clt">
-      <e><p><l>دا</l><r><j/>دا<s n="post"/></r></p></e>
-    </pardef>
-
-    <pardef n="د_ا__post_clt">
-      <e><p><l>ا</l><r><j/>دا<s n="post"/></r></p></e>
-    </pardef>
-
-    <pardef n="دا__post">
-      <e><p><l></l><r><s n="post"/></r></p></e>
-    </pardef>
-    <!-- SECTION: Determiners -->
-
-    <pardef n="ئەم__det">
-      <e><p><l></l><r><s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
-      <e><p><l></l><r><s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="هەر__det">
-      <e><p><l></l><r><s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
-    </pardef>
-
-
-    <pardef n="ھەموو__det">
-      <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <!-- SECTION: Numerals -->
-
-    <pardef n="یەك__num">
-      <e><p><l></l><r><s n="num"/><s n="sg"/></r></p></e>
-    </pardef>
-
-    <pardef n="دوو__num">
-      <e><p><l></l><r><s n="num"/><s n="pl"/></r></p></e>
-    </pardef>
-
-
-
-    <!-- SECTION: Nouns -->
-
-    <pardef n="ئازادی__n">
-        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="ش__vocalic"/></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>ی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ێك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>ێكی</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>انی</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>ەكەی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
-        <e><p><l>ەكانی</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
-        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
-	<!-- ZWNJ stuff -->
-        <e r="LR"><p><l>ەكە‌ی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
-    </pardef>
-
-
-
-    <pardef n="خانوو__n">
-        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="یش__consonantal"/></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>ی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ێك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>ێكی</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>انی</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>ەكەی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
-        <e><p><l>ەكانی</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
-        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
-	<!-- ZWNJ stuff -->
-        <e r="LR"><p><l>ەكە‌ی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
-    </pardef>
-
-
-    <pardef n="فێ__n">
-        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="یش__consonantal"/></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>یی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
-        <e><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>یەكی</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
-        <e><p><l>یان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>یانی</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
-        <e><p><l>یەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>یانە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>یەكەی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
-        <e><p><l>یەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
-        <e><p><l>یەكانی</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>یانە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
-        <e><p><l>یانە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
-	<!-- ZWNJ stuff -->
-        <e r="LR"><p><l>یەكە‌ی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
-    </pardef>
-
-    <pardef n="دەریا__n">
-        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="یش__consonantal"/></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>ی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
-        <e><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>یەكی</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ن</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>نی</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
-        <e><p><l>یەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>نە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>یەكەی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
-        <e><p><l>یەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
-        <e r="LR"><p><l>ییەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
-        <e><p><l>یەكانی</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
-        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>نە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
-        <e><p><l>نە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
-     </pardef>
-
-
-
-    <pardef n="نام_ە__n">
-        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="abs"/></r></p></e>
-        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>ەی</l><r>ە<s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ەیەك</l><r>ە<s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
-        <e><p><l>ان</l><r>ە<s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
-        <e><p><l>ەیەكی</l><r>ە<s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
-        <e><p><l>انی</l><r>ە<s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>ە</l><r>ە<s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>ەكە</l><r>ە<s n="n"/><s n="sg"/><s n="def"/></r></p></e>
-        <e><p><l>ەكان</l><r>ە<s n="n"/><s n="pl"/><s n="def"/></r></p></e>
-        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>انە</l><r>ە<s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>ەكەی</l><r>ە<s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ەكانی</l><r>ە<s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ەیە</l><r>ە<s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
-        <e><p><l>انە</l><r>ە<s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
-        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
-        <e><p><l>انە</l><r>ە<s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
-        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
-        <e><p><l>ە</l><r>ە<s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
-	<!-- ZWNJ stuff -->
-        <e r="LR"><p><l>ە‌ی</l><r>ە<s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
-        <e r="LR"><p><l>ەكە‌ی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
-    </pardef>
-
-
-
-    <!-- SECTION: Proper nouns -->
-
-    <!-- SECTION: Adjectives -->
-    <pardef n="گەور_ە__adj">
-      <e><p><l>ە</l><r>ە<s n="adj"/><s n="pst"/></r></p></e>
-      <e><p><l>ەیەك</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="ind"/></r></p></e>
-      <e><p><l>ان</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="ind"/></r></p></e>
-      <e><p><l>ەیە</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="dem"/></r></p></e>
-      <e><p><l>ەیە</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
-      <e><p><l>انە</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
-      <e><p><l>ەكە</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="def"/></r></p></e>
-      <e><p><l>ەكان</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="def"/></r></p></e>
-    </pardef>
-
-    <pardef n="درێژ__adj">
-      <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p></e>
-      <e><p><l>ێك</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="ind"/></r></p></e>
-      <e><p><l>ان</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="ind"/></r></p></e>
-      <e><p><l>ە</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="dem"/></r></p></e>
-      <e><p><l>ە</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
-      <e><p><l>انە</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
-      <e><p><l>ەكە</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="def"/></r></p></e>
-      <e><p><l>ەكە</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="def"/></r></p></e>
-      <e><p><l>ەكان</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="def"/></r></p></e>
-    </pardef>
-
-    <pardef n="یەكەم__adj">
-      <e><p><l></l><r><s n="adj"/><s n="ord"/><s n="sg"/></r></p></e>
-    </pardef>
-
-    <pardef n="دووھەم__adj">
-      <e><p><l></l><r><s n="adj"/><s n="ord"/><s n="pl"/></r></p></e>
-    </pardef>
-
-
-
-
-    <!-- SECTION: Adverbs -->
-
-    <pardef n="ئەمرۆ__adv">
-      <e><p><l></l><r><s n="adv"/></r></p></e>
-    </pardef>
-
-    <!-- SECTION: Verbs -->
+   <!-- SECTION: Verbs -->
 
     <pardef n="بوون__clt_cons">
+      <e><p><l></l><r></r></p></e>
       <e><p><l>م</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ی</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>یت</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -779,6 +451,350 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
       <e><p><l>نەدەك</l><r><s n="vblex"/><s n="tv"/><s n="neg"/></r></p><par n="دەك__vblex"/></e>
     </pardef>
 
+
+    <!-- SECTION: Miscellaneous -->
+
+    <pardef n="ئایا__ques">
+      <e><p><l>ئایا</l><r><s n="ques"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Pronouns -->
+    <pardef n="من__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
+    </pardef>
+    <pardef n="تۆ__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
+    </pardef>
+    <pardef n="ئەو__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+    <pardef n="ئێمە__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="ئێوە__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="ئەوان__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Clitics -->
+    <pardef n="pers__prn_clt">
+      <e><p><l>م</l><r></r></p><par n="من__prn"/></e>
+      <e><p><l>ت</l><r></r></p><par n="تۆ__prn"/></e>
+      <e><p><l>ی</l><r></r></p><par n="ئەو__prn"/></e>
+      <e><p><l>مان</l><r></r></p><par n="ئێمە__prn"/></e>
+      <e><p><l>تان</l><r></r></p><par n="ئێوە__prn"/></e>
+      <e><p><l>یان</l><r></r></p><par n="ئەوان__prn"/></e>	
+    </pardef>
+
+    <pardef n="poss__agr_voc">
+      <e><p><l></l><r></r></p></e>
+      <e><p><l>م</l><r><j/>من</r></p><par n="بوون__clt_voc"/><par n="من__prn"/></e>
+      <e><p><l>ت</l><r><j/>تۆ</r></p><par n="بوون__clt_voc"/><par n="تۆ__prn"/></e>
+      <e><p><l>ی</l><r><j/>ئەو</r></p><par n="بوون__clt_voc"/><par n="ئەو__prn"/></e>
+      <e><p><l>مان</l><r><j/>ئێمە</r></p><par n="بوون__clt_voc"/><par n="ئێمە__prn"/></e>
+      <e><p><l>تان</l><r><j/>ئێوە</r></p><par n="بوون__clt_voc"/><par n="ئێوە__prn"/></e>
+      <e><p><l>یان</l><r><j/>ئەوان</r></p><par n="بوون__clt_voc"/><par n="ئەوان__prn"/></e>	
+    </pardef>
+
+    <pardef n="poss__agr_cons">
+      <e><p><l></l><r></r></p><par n="بوون__clt_cons"/><par n="بوون__clt_cons"/></e>
+      <e><p><l>م</l><r><j/>من</r></p><par n="بوون__clt_cons"/><par n="من__prn"/></e>
+      <e><p><l>ت</l><r><j/>تۆ</r></p><par n="بوون__clt_cons"/><par n="تۆ__prn"/></e>
+      <e><p><l>ی</l><r><j/>ئەو</r></p><par n="بوون__clt_cons"/><par n="ئەو__prn"/></e>
+      <e><p><l>مان</l><r><j/>ئێمە</r></p><par n="بوون__clt_cons"/><par n="ئێمە__prn"/></e>
+      <e><p><l>تان</l><r><j/>ئێوە</r></p><par n="بوون__clt_cons"/><par n="ئێوە__prn"/></e>
+      <e><p><l>یان</l><r><j/>ئەوان</r></p><par n="بوون__clt_cons"/><par n="ئەوان__prn"/></e>	
+    </pardef>
+
+    <pardef n="ش__vocalic">
+        <e><p><l></l><r></r></p><par n="poss__agr_voc"/></e>
+        <e><p><l>ش</l><r><s n="emph"/></r></p><par n="poss__agr_cons"/></e>
+    </pardef>
+
+    <pardef n="یش__consonantal">
+        <e><p><l></l><r></r></p><par n="poss__agr_cons"/></e>
+        <e><p><l>یش</l><r><s n="emph"/></r></p><par n="poss__agr_cons"/></e>
+    </pardef>
+
+
+
+
+
+    <!-- SECTION: Conjunctions -->
+
+    <pardef n="وە__cnjcoo">
+      <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
+    <pardef n="ئەگەر__cnjsub">
+      <e><p><l></l><r><s n="cnjsub"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Prepositions -->
+
+    <pardef n="ل_ە__pr">
+      <e><p><l>ە</l><r>ە<s n="pr"/></r></p></e>
+      <e><p><l>ێ</l><r>ە<s n="pr"/><j/></r></p><par n="pers__prn_clt"/></e>
+      <e><p><l>ەم</l><r>ە<s n="pr"/><j/>من</r></p><par n="من__prn"/></e>
+      <e><p><l>ەت</l><r>ە<s n="pr"/><j/>تۆ</r></p><par n="تۆ__prn"/></e>
+      <e><p><l>ەو</l><r>ە<s n="pr"/><j/>ئەو</r></p><par n="ئەو__prn"/></e>
+      <e><p><l>ەمە</l><r>ە<s n="pr"/><j/>ئێمە</r></p><par n="ئێمە__prn"/></e>
+      <e><p><l>ەوە</l><r>ە<s n="pr"/><j/>ئێوە</r></p><par n="ئێوە__prn"/></e>
+      <e><p><l>ەوان</l><r>ە<s n="pr"/><j/>ئەوان</r></p><par n="ئەوان__prn"/></e> 
+    </pardef>
+
+    <pardef n="_بە__pr">
+      <e><p><l>بە</l><r>بە<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>بە</l><r>بە<s n="pr"/><s n="pro"/></r></p></e>
+      <e><p><l>پێ</l><r>بە<s n="pr"/><s n="pro"/></r></p></e>
+      <e r="LR"><p><l>بە</l><r>بە<s n="pr"/><s n="pro"/><j/></r></p><par n="pers__prn_clt"/></e>
+      <e><p><l>پێ</l><r>بە<s n="pr"/><s n="pro"/><j/></r></p><par n="pers__prn_clt"/></e>
+    </pardef>
+
+    <pardef n="_دە__pr">
+      <e><p><l>دە</l><r>دە<s n="pr"/></r></p></e>
+      <e><p><l>تێ</l><r>دە<s n="pr"/><s n="pro"/></r></p></e>
+      <e><p><l>تێ</l><r>دە<s n="pr"/><s n="pro"/><j/></r></p><par n="pers__prn_clt"/></e>
+    </pardef>
+
+    <pardef n="بەر__pr">
+      <e><p><l></l><r><s n="pr"/></r></p></e>
+      <e><p><l></l><r><s n="pr"/><j/></r></p><par n="pers__prn_clt"/></e>
+    </pardef>
+
+    <!-- SECTION: Postpositions -->
+
+    <pardef n="ەوە__post_clt">
+      <e><p><l>ەوە</l><r><j/>ەوە<s n="post"/></r></p></e>
+    </pardef>
+
+    <pardef n="دا__post_clt">
+      <e><p><l>دا</l><r><j/>دا<s n="post"/></r></p></e>
+    </pardef>
+
+    <pardef n="د_ا__post_clt">
+      <e><p><l>ا</l><r><j/>دا<s n="post"/></r></p></e>
+    </pardef>
+
+    <pardef n="دا__post">
+      <e><p><l></l><r><s n="post"/></r></p></e>
+    </pardef>
+    <!-- SECTION: Determiners -->
+
+    <pardef n="ئەم__det">
+      <e><p><l></l><r><s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="هەر__det">
+      <e><p><l></l><r><s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="ھەموو__det">
+      <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Numerals -->
+
+    <pardef n="یەك__num">
+      <e><p><l></l><r><s n="num"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="دوو__num">
+      <e><p><l></l><r><s n="num"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
+
+    <!-- SECTION: Nouns -->
+
+    <pardef n="ئازادی__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="ش__vocalic"/></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ێك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ێكی</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>انی</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ەكەی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e><p><l>ەكانی</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
+        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+	<!-- ZWNJ stuff -->
+        <e r="LR"><p><l>ەكە‌ی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
+    </pardef>
+
+
+
+    <pardef n="خانوو__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="یش__consonantal"/></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ێك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ێكی</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>انی</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ەكەی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e><p><l>ەكانی</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
+        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+	<!-- ZWNJ stuff -->
+        <e r="LR"><p><l>ەكە‌ی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="فێ__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="یش__consonantal"/></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>یی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
+        <e><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>یەكی</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>یان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>یانی</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>یەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>یانە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>یەكەی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e><p><l>یەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e><p><l>یەكانی</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>یانە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
+        <e><p><l>یانە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+	<!-- ZWNJ stuff -->
+        <e r="LR"><p><l>یەكە‌ی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
+    </pardef>
+
+    <pardef n="دەریا__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="یش__consonantal"/></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
+        <e><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>یەكی</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ن</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>نی</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>یەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>نە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>یەكەی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e><p><l>یەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e r="LR"><p><l>ییەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e><p><l>یەكانی</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>نە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
+        <e><p><l>نە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
+     </pardef>
+
+
+
+    <pardef n="نام_ە__n">
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="abs"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ەی</l><r>ە<s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ەیەك</l><r>ە<s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
+        <e><p><l>ان</l><r>ە<s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
+        <e><p><l>ەیەكی</l><r>ە<s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>انی</l><r>ە<s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ەكە</l><r>ە<s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e><p><l>ەكان</l><r>ە<s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>انە</l><r>ە<s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ەكەی</l><r>ە<s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ەكانی</l><r>ە<s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ەیە</l><r>ە<s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
+        <e><p><l>انە</l><r>ە<s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e><p><l>انە</l><r>ە<s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+        <e><p><l>ە</l><r>ە<s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+	<!-- ZWNJ stuff -->
+        <e r="LR"><p><l>ە‌ی</l><r>ە<s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
+        <e r="LR"><p><l>ەكە‌ی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
+    </pardef>
+
+
+
+    <!-- SECTION: Proper nouns -->
+
+    <!-- SECTION: Adjectives -->
+    <pardef n="گەور_ە__adj">
+      <e><p><l>ە</l><r>ە<s n="adj"/><s n="pst"/></r></p></e>
+      <e><p><l>ەیەك</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="ind"/></r></p></e>
+      <e><p><l>ان</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="ind"/></r></p></e>
+      <e><p><l>ەیە</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="dem"/></r></p></e>
+      <e><p><l>ەیە</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
+      <e><p><l>انە</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
+      <e><p><l>ەكە</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="def"/></r></p></e>
+      <e><p><l>ەكان</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="def"/></r></p></e>
+    </pardef>
+
+    <pardef n="درێژ__adj">
+      <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p></e>
+      <e><p><l>ێك</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="ind"/></r></p></e>
+      <e><p><l>ان</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="ind"/></r></p></e>
+      <e><p><l>ە</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="dem"/></r></p></e>
+      <e><p><l>ە</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
+      <e><p><l>انە</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
+      <e><p><l>ەكە</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="def"/></r></p></e>
+      <e><p><l>ەكە</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="def"/></r></p></e>
+      <e><p><l>ەكان</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="def"/></r></p></e>
+    </pardef>
+
+    <pardef n="یەكەم__adj">
+      <e><p><l></l><r><s n="adj"/><s n="ord"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="دووھەم__adj">
+      <e><p><l></l><r><s n="adj"/><s n="ord"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
+
+
+    <!-- SECTION: Adverbs -->
+
+    <pardef n="ئەمرۆ__adv">
+      <e><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+ 
 
 
 
@@ -1540,6 +1556,7 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
       <e lm="ئێکس"><i>ئێکس</i><par n="خانوو__n"/></e>
       <e lm="ئاست"><i>ئاست</i><par n="خانوو__n"/></e>
       <e lm="ئاڵا"><i>ئاڵا</i><par n="دەریا__n"/></e>
+      <e lm="سەرما"><i>سەرما</i><par n="دەریا__n"/></e>
       <e lm="قەبارە"><i>قەبار</i><par n="نام_ە__n"/></e>
       <e lm="زانین"><i>زانین</i><par n="خانوو__n"/></e>
       <e lm="پەرلەمان"><i>پەرلەمان</i><par n="خانوو__n"/></e>
