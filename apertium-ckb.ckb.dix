@@ -3,6 +3,12 @@
   <alphabet>یێەه‍وووۆنملڵگکكقڤفغعش‌سژزڕردخحچجتھهپبئا</alphabet>
   <sdefs>
     <sdef n="n"        c="Noun"/>
+    <sdef n="cm"        c=""/>
+    <sdef n="guio"        c=""/>
+    <sdef n="lpar"        c=""/>
+    <sdef n="rpar"        c=""/>
+    <sdef n="lquot"        c=""/>
+    <sdef n="rquot"        c=""/>
     <sdef n="adv"      c="Adverb"/>
     <sdef n="adj"      c="Adjective"/>
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
@@ -56,7 +62,33 @@
       <e><re>[۰۱۲۳٤۵٦۷۸۹]+([.,][۰۱۲۳٤۵٦۷۸۹]+)?</re><p><l/><r><s n="num"/></r></p></e>
     </pardef>
 
+    <pardef n="quotes">
+      <e><re>[«“]+</re><p><l></l><r><s n="lquot"/></r></p></e>
+      <e><re>[»”]+</re><p><l></l><r><s n="rquot"/></r></p></e>
+    </pardef>
+  
 
+    <pardef n="separa">
+      <e><re>[\?;:…]</re><p><l/><r><s n="sent"/></r></p></e>
+      <e><re>[.!]+</re><p><l/><r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <pardef n="guio">
+      <e><re>[—\-]+</re><p><l></l><r><s n="guio"/></r></p></e>
+      <e><p><l>–</l><r>–<s n="guio"/></r></p></e>
+    </pardef>
+
+    <pardef n="coma">
+      <e><re>،</re><p><l></l><r><s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="paresq">
+      <e><re>[\(\[]</re><p><l></l><r><s n="lpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="pardret">
+      <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
+    </pardef>
 
 
 
@@ -497,32 +529,50 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
       <e><p><l>ی</l><r>ئەو<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="sg"/><j/></r></p><par n="بوون__clt_cons"/></e>
       <e><p><l>مان</l><r>ئێمە<s n="prn"/><s n="pers"/><s n="clt"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>مان</l><r>ئێمە<s n="prn"/><s n="pers"/><s n="clt"/><s n="p1"/><s n="pl"/><j/></r></p><par n="بوون__clt_voc"/></e>
-
       <e><p><l>تان</l><r>ئێوە<s n="prn"/><s n="pers"/><s n="clt"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>تان</l><r>ئێوە<s n="prn"/><s n="pers"/><s n="clt"/><s n="p2"/><s n="pl"/><j/></r></p><par n="بوون__clt_voc"/></e>
-
       <e><p><l>یان</l><r>ئەوان<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="pl"/></r></p></e>	
-      <e><p><l>یان</l><r>ئەوان<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="pl"/><j/></r></p><par n="بوون__clt_cons"/></e>	
+      <e><p><l>یان</l><r>ئەوان<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="pl"/><j/></r></p><par n="بوون__clt_cons"/></e>
+      <e><p><l>م</l><r><s n="p1xsg"/></r></p></e>
+      <e><p><l>م</l><r><s n="p1xsg"/><j/></r></p><par n="بوون__clt_cons"/></e>
+      <e><p><l>ت</l><r><s n="p2xsg"/></r></p></e>
+      <e><p><l>ت</l><r><s n="p2xsg"/><j/></r></p><par n="بوون__clt_cons"/></e>
+      <e><p><l>ی</l><r><s n="p3xsg"/></r></p></e>
+      <e><p><l>ی</l><r><s n="p3xsg"/><j/></r></p><par n="بوون__clt_cons"/></e>
+      <e><p><l>مان</l><r><s n="p1xpl"/></r></p></e>
+      <e><p><l>مان</l><r><s n="p1xpl"/><j/></r></p><par n="بوون__clt_cons"/></e>
+      <e><p><l>تان</l><r><s n="p2xpl"/></r></p></e>
+      <e><p><l>تان</l><r><s n="p2xpl"/><j/></r></p><par n="بوون__clt_cons"/></e>
+      <e><p><l>یان</l><r><s n="p3xpl"/></r></p></e>	
+      <e><p><l>یان</l><r><s n="p3xpl"/><j/></r></p><par n="بوون__clt_cons"/></e>	
     </pardef>
 
     <pardef n="poss__agr_cons">
-      <e><p><l></l><r></r></p><par n="بوون__clt_cons"/><par n="بوون__clt_cons"/></e>
-      <e><p><l>م</l><r><j/>من</r></p><par n="بوون__clt_cons"/><par n="من__prn"/></e>
-      <e><p><l>ت</l><r><j/>تۆ</r></p><par n="بوون__clt_cons"/><par n="تۆ__prn"/></e>
-      <e><p><l>ی</l><r><j/>ئەو</r></p><par n="بوون__clt_cons"/><par n="ئەو__prn"/></e>
-      <e><p><l>مان</l><r><j/>ئێمە</r></p><par n="بوون__clt_cons"/><par n="ئێمە__prn"/></e>
-      <e><p><l>تان</l><r><j/>ئێوە</r></p><par n="بوون__clt_cons"/><par n="ئێوە__prn"/></e>
-      <e><p><l>یان</l><r><j/>ئەوان</r></p><par n="بوون__clt_cons"/><par n="ئەوان__prn"/></e>	
+      <e><p><l>م</l><r><s n="p1xsg"/></r></p><par n="من__prn"/></e>
+      <e><p><l>ت</l><r><s n="p2xsg"/></r></p><par n="تۆ__prn"/></e>
+      <e><p><l>ی</l><r><s n="p3xsg"/></r></p><par n="ئەو__prn"/></e>
+      <e><p><l>مان</l><r><s n="p1xpl"/></r></p><par n="ئێمە__prn"/></e>
+      <e><p><l>تان</l><r><s n="p2xpl"/></r></p><par n="ئێوە__prn"/></e>
+      <e><p><l>یان</l><r><s n="p3xpl"/></r></p><par n="ئەوان__prn"/></e>
+      <e><p><l>م</l><r><s n="p1xsg"/></r></p><par n="بوون__clt_cons"/><par n="من__prn"/></e>
+      <e><p><l>ت</l><r><s n="p2xsg"/></r></p><par n="بوون__clt_cons"/><par n="تۆ__prn"/></e>
+      <e><p><l>ی</l><r><s n="p3xsg"/></r></p><par n="بوون__clt_cons"/><par n="ئەو__prn"/></e>
+      <e><p><l>مان</l><r><s n="p1xpl"/></r></p><par n="بوون__clt_cons"/><par n="ئێمە__prn"/></e>
+      <e><p><l>تان</l><r><s n="p2xpl"/></r></p><par n="بوون__clt_cons"/><par n="ئێوە__prn"/></e>
+      <e><p><l>یان</l><r><s n="p3xpl"/></r></p><par n="بوون__clt_cons"/><par n="ئەوان__prn"/></e>	
     </pardef>
 
     <pardef n="ش__vocalic">
         <e><p><l></l><r></r></p></e>
         <e><p><l></l><r><j/></r></p><par n="poss__agr_voc"/></e>
         <e><p><l>ش</l><r><s n="emph"/></r></p><par n="poss__agr_cons"/></e>
+        <e><p><l>ش</l><r><s n="emph"/></r></p><par n="poss__agr_cons"/></e>
     </pardef>
 
     <pardef n="یش__consonantal">
         <e><p><l></l><r></r></p><par n="poss__agr_cons"/></e>
+        <e><p><l>یش</l><r><s n="emph"/></r></p></e>
+        <e><p><l>یش</l><r><s n="emph"/></r></p><par n="بوون__clt_cons"/></e>
         <e><p><l>یش</l><r><s n="emph"/></r></p><par n="poss__agr_cons"/></e>
     </pardef>
 
@@ -677,7 +727,7 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
 
 
     <pardef n="فێ__n">
-        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="یش__consonantal"/></e>
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="ش__vocalic"/></e>
         <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
         <e><p><l>یی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
         <e><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
@@ -2585,7 +2635,13 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
   </section>
 
   <section id="final" type="inconditional">
+      <e><par n="coma"/></e>
+      <e><par n="separa"/></e>
+      <e><par n="guio"/></e>
       <e><par n="numeros"/></e>
+      <e><par n="paresq"/></e>
+      <e><par n="pardret"/></e>
+      <e><par n="quotes"/></e>
   </section>
 
 
