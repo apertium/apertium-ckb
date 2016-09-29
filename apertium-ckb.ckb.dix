@@ -63,24 +63,23 @@
    <!-- SECTION: Verbs -->
 
     <pardef n="بوون__clt_cons">
-      <e><p><l></l><r></r></p></e>
-      <e><p><l>م</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ی</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>یت</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ە</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ین</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ن</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>ن</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>م</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ی</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>یت</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ە</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ین</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ن</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ن</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="بوون__clt_voc">
-      <e><p><l>م</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ی</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>یت</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>یە</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ین</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ن</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>ن</l><r><j/>بوون<s n="vbcop"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>م</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ی</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>یت</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>یە</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ین</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ن</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ن</l><r>بوون<s n="vbcop"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="ھەبوون__vbhaver">
@@ -167,6 +166,7 @@
     <pardef n="ھاتن__vblex_iv">
       <e><p><l></l><r><s n="vblex"/><s n="iv"/></r></p><par n="ھاتن__vblex"/></e>
     </pardef>
+
     <pardef n="چ__vblex">
       <e><p><l>م</l><r><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>یت</l><r><s n="p2"/><s n="sg"/></r></p></e>
@@ -489,13 +489,20 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
     </pardef>
 
     <pardef n="poss__agr_voc">
-      <e><p><l></l><r></r></p></e>
-      <e><p><l>م</l><r><j/>من</r></p><par n="بوون__clt_voc"/><par n="من__prn"/></e>
-      <e><p><l>ت</l><r><j/>تۆ</r></p><par n="بوون__clt_voc"/><par n="تۆ__prn"/></e>
-      <e><p><l>ی</l><r><j/>ئەو</r></p><par n="بوون__clt_voc"/><par n="ئەو__prn"/></e>
-      <e><p><l>مان</l><r><j/>ئێمە</r></p><par n="بوون__clt_voc"/><par n="ئێمە__prn"/></e>
-      <e><p><l>تان</l><r><j/>ئێوە</r></p><par n="بوون__clt_voc"/><par n="ئێوە__prn"/></e>
-      <e><p><l>یان</l><r><j/>ئەوان</r></p><par n="بوون__clt_voc"/><par n="ئەوان__prn"/></e>	
+      <e><p><l>م</l><r>من<s n="prn"/><s n="pers"/><s n="clt"/><s n="p1"/><s n="sg"/></r></p></e>	
+      <e><p><l>م</l><r>من<s n="prn"/><s n="pers"/><s n="clt"/><s n="p1"/><s n="sg"/><j/></r></p><par n="بوون__clt_cons"/></e>
+      <e><p><l>ت</l><r>تۆ<s n="prn"/><s n="pers"/><s n="clt"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ت</l><r>تۆ<s n="prn"/><s n="pers"/><s n="clt"/><s n="p2"/><s n="sg"/><j/></r></p><par n="بوون__clt_cons"/></e>
+      <e><p><l>ی</l><r>ئەو<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ی</l><r>ئەو<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="sg"/><j/></r></p><par n="بوون__clt_cons"/></e>
+      <e><p><l>مان</l><r>ئێمە<s n="prn"/><s n="pers"/><s n="clt"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>مان</l><r>ئێمە<s n="prn"/><s n="pers"/><s n="clt"/><s n="p1"/><s n="pl"/><j/></r></p><par n="بوون__clt_voc"/></e>
+
+      <e><p><l>تان</l><r>ئێوە<s n="prn"/><s n="pers"/><s n="clt"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>تان</l><r>ئێوە<s n="prn"/><s n="pers"/><s n="clt"/><s n="p2"/><s n="pl"/><j/></r></p><par n="بوون__clt_voc"/></e>
+
+      <e><p><l>یان</l><r>ئەوان<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="pl"/></r></p></e>	
+      <e><p><l>یان</l><r>ئەوان<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="pl"/><j/></r></p><par n="بوون__clt_cons"/></e>	
     </pardef>
 
     <pardef n="poss__agr_cons">
@@ -509,7 +516,8 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
     </pardef>
 
     <pardef n="ش__vocalic">
-        <e><p><l></l><r></r></p><par n="poss__agr_voc"/></e>
+        <e><p><l></l><r></r></p></e>
+        <e><p><l></l><r><j/></r></p><par n="poss__agr_voc"/></e>
         <e><p><l>ش</l><r><s n="emph"/></r></p><par n="poss__agr_cons"/></e>
     </pardef>
 
@@ -696,7 +704,7 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
     </pardef>
 
     <pardef n="دەریا__n">
-        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="یش__consonantal"/></e>
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="ش__vocalic"/></e>
         <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
         <e><p><l>ی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
         <e><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
