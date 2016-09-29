@@ -575,7 +575,9 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
     </pardef>
 
     <pardef n="ش__vocalic">
-        <e><p><l>ش</l><r><s n="emph"/></r></p><par n="poss__agr_cons"/></e>
+        <e><p><l></l><r></r></p><par n="poss__agr_voc"/></e>
+        <e><p><l>ش</l><r><s n="emph"/></r></p></e>
+        <e><p><l>ش</l><r><s n="emph"/></r></p><par n="بوون__clt_cons"/></e>
         <e><p><l>ش</l><r><s n="emph"/></r></p><par n="poss__agr_cons"/></e>
     </pardef>
 
@@ -714,9 +716,11 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
         <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
         <e><p><l>ی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
         <e><p><l>ێك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
+        <e><p><l>ێك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p><par n="یش__consonantal"/></e>
         <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
         <e><p><l>ێكی</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
         <e><p><l>ان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
+        <e><p><l>ان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p><par n="یش__consonantal"/></e>
         <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
         <e><p><l>انی</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
         <e><p><l>ەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
