@@ -575,8 +575,6 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
     </pardef>
 
     <pardef n="ش__vocalic">
-        <e><p><l></l><r></r></p></e>
-        <e><p><l></l><r><j/></r></p><par n="poss__agr_voc"/></e>
         <e><p><l>ش</l><r><s n="emph"/></r></p><par n="poss__agr_cons"/></e>
         <e><p><l>ش</l><r><s n="emph"/></r></p><par n="poss__agr_cons"/></e>
     </pardef>
@@ -692,6 +690,7 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
         <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
         <e><p><l>انی</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
         <e><p><l>ەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e><p><l>ەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p><par n="ش__vocalic"/></e>
         <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
         <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
         <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
@@ -721,16 +720,19 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
         <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
         <e><p><l>انی</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
         <e><p><l>ەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e><p><l>ەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p><par n="ش__vocalic"/></e>
         <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
         <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
         <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
         <e><p><l>ەكەی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
         <e><p><l>ەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e><p><l>ەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p><par n="یش__consonantal"/></e>
         <e><p><l>ەكانی</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
         <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
         <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
         <e><p><l>ە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
         <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
+        <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p><par n="یش__consonantal"/></e>
         <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
         <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
 	<!-- ZWNJ stuff -->
@@ -767,6 +769,7 @@ This paradigm is ONLY for positive past tense inflections, when the personal pro
 
     <pardef n="دەریا__n">
         <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="ش__vocalic"/></e>
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p></e>
         <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
         <e><p><l>ی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
         <e><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
