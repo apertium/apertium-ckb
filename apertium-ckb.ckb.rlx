@@ -3,10 +3,17 @@ DELIMITERS = "<.>" ;
 
 # We can define sets for common tag clusters
 LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
-
+LIST Dem = dem ;
+LIST N = n;
+LIST Prop = np;
+LIST Top = top;
+LIST Vbhaver = vbhaver;
+LIST Px = px1sg px2sg px3sg px1pl px2pl px3pl ;
+LIST Cop = vbcop;
 SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
 REMOVE (n) OR (v) IF (1 (n s)) ;
+SELECT Px IF (0 Px OR Cop) (1 Vbhaver);
 
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
 SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
