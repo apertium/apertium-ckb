@@ -37,6 +37,7 @@
     <sdef n="p1"       c="Number"/>
     <sdef n="p2"       c="Number"/>
     <sdef n="qnt"       c=""/>
+    <sdef n="qst"       c=""/>
     <sdef n="p3"       c="Number"/>
     <sdef n="px1sg"       c="Possessor"/>
     <sdef n="px2sg"       c="Possessor"/>
@@ -595,8 +596,8 @@
 
     <!-- SECTION: Miscellaneous -->
 
-    <pardef n="ئایا__ques">
-      <e><p><l>ئایا</l><r><s n="ques"/></r></p></e>
+    <pardef n="ئایا__qst">
+      <e><p><l>ئایا</l><r><s n="qst"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Pronouns -->
@@ -1510,7 +1511,7 @@
 </pardefs>
   <section id="main" type="standard">
     <!-- SECTION: Miscellaneous -->
-
+    <e lm="ئایا"><i>ئایا</i><par n="ئایا__qst"/></e>
     <!-- SECTION: Conjunctions -->
 
     <e lm="و"><i>و</i><par n="وە__cnjcoo"/></e>
