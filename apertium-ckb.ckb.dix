@@ -195,6 +195,15 @@
       <e><p><l>نەوێ</l><r>ویستن<s n="vbmod"/><s n="pri"/><s n="neg"/></r></p></e>
     </pardef>
 
+    <pardef n="پێویست__vbmod">
+      <e><p><l>م</l><r>پێویست<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ت</l><r>پێویست<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ی</l><r>پێویست<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>مان</l><r>پێویست<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>تان</l><r>پێویست<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>یان</l><r>پێویست<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="ھاتن__vblex">
       <e c="Sulaymani"><p><l>یەم</l><r><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e c="Sulaymani"><p><l>یەیت</l><r><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -3302,8 +3311,9 @@
     <!-- SECTION: Verbs - Manual -->
 
     <e lm="بوون"><i></i><par n="بوون__vbcop"/></e>
-    <e lm="ھەبوون"><i></i><par n="ھەبوون__vbhaver"/></e>
+    <e lm="ھەبوون"><i></i><par n="ھەبوون__vbhaver"/></e> 
 
+    <e lm="پێویست"><p><l>پێویست</l><r></r></p><par n="پێویست__vbmod"/></e>
     <e lm="ویستن"><p><l></l><r>ویستن</r></p><par n="دەوێ__vbmod"/></e>
     <e lm="ویستن"><p><l>دە</l><r>ویستن</r></p><par n="دە_ەوێ__vblex"/></e>
     <e lm="ویستن"><p><l>ب</l><r>ویستن</r></p><par n="ب_ەوێ__vblex"/></e>

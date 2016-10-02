@@ -11,7 +11,12 @@ LIST Adj = adj;
 LIST Top = top;
 LIST Vbhaver = vbhaver;
 LIST Px = px1sg px2sg px3sg px1pl px2pl px3pl ;
+LIST CS = cnjsub;
+LIST CC = cnjcoo;
 LIST Pr = pr;
+LIST Prs = prs;
+LIST Pri = pri;
+LIST Imp = imp;
 LIST Cop = vbcop;
 LIST Eza = ezalos ezaclo;
 LIST Prn = prn;
@@ -21,6 +26,8 @@ SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
 REMOVE (n) OR (v) IF (1 (n s)) ;
 SELECT Px IF (0 Px OR Cop) (1 Vbhaver);
+SELECT Prs IF (0C Imp OR Prs) (-1 Pri);
+SELECT Prs IF (0C Imp OR Prs) (-1 CS);
 SELECT Eza IF (0 Eza OR Cop) (1 NOMEN);
 SELECT Dem IF (0 N + Dem OR Cop) (-1 Det);
 SELECT Cop IF (0 Cop OR Px) (NOT 0* V);
