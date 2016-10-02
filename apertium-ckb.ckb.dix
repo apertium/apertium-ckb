@@ -72,7 +72,7 @@
   
 
     <pardef n="separa">
-      <e><re>[\?;:…]</re><p><l/><r><s n="sent"/></r></p></e>
+      <e><re>[؟\?;:…]</re><p><l/><r><s n="sent"/></r></p></e>
       <e><re>[.!]+</re><p><l/><r><s n="sent"/></r></p></e>
     </pardef>
 
