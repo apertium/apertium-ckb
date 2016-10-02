@@ -1346,25 +1346,40 @@
     <!-- SECTION: Adjectives -->
     <pardef n="گەور_ە__adj">
       <e><p><l>ە</l><r>ە<s n="adj"/><s n="pst"/></r></p></e>
+      <e><p><l>ە</l><r>ە<s n="adj"/><s n="pst"/><j/></r></p><par n="بوون__clt_voc"/></e>
       <e><p><l>ەیەك</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="ind"/></r></p></e>
+      <e><p><l>ەیەك</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="ind"/><j/></r></p><par n="بوون__clt_cons"/></e>
       <e><p><l>ان</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="ind"/></r></p></e>
+      <e><p><l>ان</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="ind"/><j/></r></p><par n="بوون__clt_cons"/></e>
       <e><p><l>ەیە</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="dem"/></r></p></e>
+      <e><p><l>ەیە</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="dem"/><j/></r></p><par n="بوون__clt_voc"/></e>
       <e><p><l>ەیە</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
+      <e><p><l>ەیە</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/><j/></r></p><par n="بوون__clt_voc"/></e>
       <e><p><l>انە</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
+      <e><p><l>انە</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/><j/></r></p><par n="بوون__clt_voc"/></e>
       <e><p><l>ەكە</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="def"/></r></p></e>
+      <e><p><l>ەكە</l><r>ە<s n="adj"/><s n="pst"/><s n="sg"/><s n="def"/><j/></r></p><par n="بوون__clt_voc"/></e>
       <e><p><l>ەكان</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="def"/></r></p></e>
+      <e><p><l>ەكان</l><r>ە<s n="adj"/><s n="pst"/><s n="pl"/><s n="def"/><j/></r></p><par n="بوون__clt_cons"/></e>
     </pardef>
 
     <pardef n="درێژ__adj">
       <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="pst"/><j/></r></p><par n="بوون__clt_cons"/></e>
       <e><p><l>ێك</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="ind"/></r></p></e>
+      <e><p><l>ێك</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="ind"/><j/></r></p><par n="بوون__clt_cons"/></e>
       <e><p><l>ان</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="ind"/></r></p></e>
+      <e><p><l>ان</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="ind"/><j/></r></p><par n="بوون__clt_cons"/></e>
       <e><p><l>ە</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="dem"/></r></p></e>
+      <e><p><l>ە</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="dem"/><j/></r></p><par n="بوون__clt_voc"/></e>
       <e><p><l>ە</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
+      <e><p><l>ە</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/><j/></r></p><par n="بوون__clt_voc"/></e>
       <e><p><l>انە</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/></r></p></e>
+      <e><p><l>انە</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="dem"/><j/></r></p><par n="بوون__clt_voc"/></e>
       <e><p><l>ەكە</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="def"/></r></p></e>
-      <e><p><l>ەكە</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="def"/></r></p></e>
+      <e><p><l>ەكە</l><r><s n="adj"/><s n="pst"/><s n="sg"/><s n="def"/><j/></r></p><par n="بوون__clt_voc"/></e>
       <e><p><l>ەكان</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="def"/></r></p></e>
+      <e><p><l>ەكان</l><r><s n="adj"/><s n="pst"/><s n="pl"/><s n="def"/><j/></r></p><par n="بوون__clt_cons"/></e>
     </pardef>
 
     <pardef n="یەكەم__adj">
@@ -1430,6 +1445,7 @@
     <e lm="لەکاتێکدا"><i>لەکاتێکدا</i><par n="ئەگەر__cnjsub"/></e>
 
     <!-- SECTION: Prepositions -->
+    <e lm="بەبێ"><i>بەبێ</i><par n="بەر__pr"/></e>
     <e lm="ناوەوە"><i>ناوەوە</i><par n="بەر__pr"/></e>
     <e lm="ناو"><i>ناو</i><par n="بەر__pr"/></e>
     <e lm="بێ"><i>بێ</i><par n="بەر__pr"/></e>
@@ -1919,7 +1935,6 @@
       <e lm="باشوور"><i>باشوور</i><par n="خانوو__n"/></e>
       <e lm="لێکۆڵین"><i>لێکۆڵین</i><par n="خانوو__n"/></e>
       <e lm="سکرتێر"><i>سکرتێر</i><par n="خانوو__n"/></e>
-      <e lm="م"><i>م</i><par n="خانوو__n"/></e>
       <e lm="عومەر"><i>عومەر</i><par n="خانوو__n"/></e>
       <e lm="تاک"><i>تاک</i><par n="خانوو__n"/></e>
       <e lm="سەد"><i>سەد</i><par n="خانوو__n"/></e>
