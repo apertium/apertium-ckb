@@ -7,9 +7,11 @@ LIST Dem = dem ;
 LIST Det = det;
 LIST N = n;
 LIST Prop = np;
+LIST Adj = adj;
 LIST Top = top;
 LIST Vbhaver = vbhaver;
 LIST Px = px1sg px2sg px3sg px1pl px2pl px3pl ;
+LIST Pr = pr;
 LIST Cop = vbcop;
 LIST Eza = ezalos ezaclo;
 LIST Prn = prn;
@@ -22,6 +24,7 @@ SELECT Px IF (0 Px OR Cop) (1 Vbhaver);
 SELECT Eza IF (0 Eza OR Cop) (1 NOMEN);
 SELECT Dem IF (0 N + Dem OR Cop) (-1 Det);
 SELECT Cop IF (0 Cop OR Px) (NOT 0* V);
+SELECT N IF (0 N OR Adj) (-1 Pr);
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
 SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
 
