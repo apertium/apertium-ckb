@@ -164,6 +164,32 @@
       <e><p><l>بن</l><r>بوون<s n="vbcop"/><s n="prs"/><s n="neg"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="ەوێ__vblex">
+      <e><p><l>مەوێ</l><r><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>تەوێ</l><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>یەوێ</l><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>مانەوێ</l><r><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>تانەوێ</l><r><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>یانەوێ</l><r><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="دە_ەوێ__vblex">
+      <e><p><l></l><r><s n="vblex"/><s n="tv"/><s n="pri"/></r></p><par n="ەوێ__vblex"/></e>
+    </pardef>
+
+    <pardef n="نە_ەوێ__vblex">
+      <e><p><l></l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="neg"/></r></p><par n="ەوێ__vblex"/></e>
+    </pardef>
+
+    <pardef n="ب_ەوێ__vblex">
+      <e><p><l></l><r><s n="vblex"/><s n="tv"/><s n="prs"/></r></p><par n="ەوێ__vblex"/></e>
+    </pardef>
+
+    <pardef n="دەوێ__vbmod">
+      <e><p><l>دەوێ</l><r>ویستن<s n="vbmod"/><s n="pri"/></r></p></e>
+      <e><p><l>نەوێ</l><r>ویستن<s n="vbmod"/><s n="pri"/><s n="neg"/></r></p></e>
+    </pardef>
+
     <pardef n="ھاتن__vblex">
       <e c="Sulaymani"><p><l>یەم</l><r><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e c="Sulaymani"><p><l>یەیت</l><r><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -2420,6 +2446,7 @@
       <e lm="هۆگر"><i>هۆگر</i><par n="خانوو__n"/></e>
       <e lm="گۆرانی"><i>گۆرانی</i><par n="خانوو__n"/></e>
       <e lm="فەرمانڕەوا"><i>فەرمانڕەوا</i><par n="دەریا__n"/></e>
+      <e lm="چا"><i>چا</i><par n="دەریا__n"/></e>
       <e lm="فەرمان"><i>فەرمان</i><par n="خانوو__n"/></e>
       <e lm="سوپا"><i>سوپا</i><par n="دەریا__n"/></e>
       <e lm="خاتوو"><i>خاتوو</i><par n="خانوو__n"/></e>
@@ -2590,7 +2617,6 @@
       <e lm="بارودۆخ"><i>بارودۆخ</i><par n="خانوو__n"/></e>
       <e lm="کەنیسە"><i>کەنیس</i><par n="نام_ە__n"/></e>
       <e lm="منداڵ"><i>منداڵ</i><par n="خانوو__n"/></e>
-      <e lm="چای"><i>چای</i><par n="ئازادی__n"/></e>
       <e lm="ناوەڕاست"><i>ناوەڕاست</i><par n="خانوو__n"/></e>
       <e lm="مەڵبەند"><i>مەڵبەند</i><par n="خانوو__n"/></e>
       <e lm="ژووری گەشتیاران لە فرۆکە"><i>ژووری<b/>گەشتیاران<b/>لە<b/>فرۆک</i><par n="نام_ە__n"/></e>
@@ -3230,9 +3256,14 @@
 
 
     <!-- SECTION: Verbs - Manual -->
+
     <e lm="بوون"><i></i><par n="بوون__vbcop"/></e>
     <e lm="ھەبوون"><i></i><par n="ھەبوون__vbhaver"/></e>
 
+    <e lm="ویستن"><p><l></l><r>ویستن</r></p><par n="دەوێ__vbmod"/></e>
+    <e lm="ویستن"><p><l>دە</l><r>ویستن</r></p><par n="دە_ەوێ__vblex"/></e>
+    <e lm="ویستن"><p><l>ب</l><r>ویستن</r></p><par n="ب_ەوێ__vblex"/></e>
+    <e lm="ویستن"><p><l>نە</l><r>ویستن</r></p><par n="نە_ەوێ__vblex"/></e>
 
     <e lm="ھاتن"><p><l></l><r>ھاتن</r></p><par n="ھاتن__vblex_iv"/></e>
 
