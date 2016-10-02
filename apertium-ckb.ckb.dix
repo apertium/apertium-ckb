@@ -597,7 +597,7 @@
     <!-- SECTION: Miscellaneous -->
 
     <pardef n="ئایا__qst">
-      <e><p><l>ئایا</l><r><s n="qst"/></r></p></e>
+      <e><p><l></l><r><s n="qst"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Pronouns -->
