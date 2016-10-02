@@ -13,12 +13,15 @@ LIST Px = px1sg px2sg px3sg px1pl px2pl px3pl ;
 LIST Cop = vbcop;
 LIST Eza = ezalos ezaclo;
 LIST Prn = prn;
+LIST V = vblex vbcop vbhaver;
+LIST NOMEN = prn n np ;
 SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
 REMOVE (n) OR (v) IF (1 (n s)) ;
 SELECT Px IF (0 Px OR Cop) (1 Vbhaver);
-SELECT Eza IF (0 Eza OR Cop) (1 Prn);
-SELECT Dem IF (0 N + Dem OR Cop) (-1 Det)
+SELECT Eza IF (0 Eza OR Cop) (1 NOMEN);
+SELECT Dem IF (0 N + Dem OR Cop) (-1 Det);
+SELECT Cop IF (0 Cop OR Px) (NOT 0* V);
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
 SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
 
