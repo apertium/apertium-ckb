@@ -25,6 +25,7 @@ SELECT Eza IF (0 Eza OR Cop) (1 NOMEN);
 SELECT Dem IF (0 N + Dem OR Cop) (-1 Det);
 SELECT Cop IF (0 Cop OR Px) (NOT 0* V);
 SELECT N IF (0 N OR Adj) (-1 Pr);
+REMOVE Eza IF (1 V);
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
 SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
 
