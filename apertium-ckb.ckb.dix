@@ -671,27 +671,27 @@
 
 <!-- Past -->
    <pardef n="م__clt">
-        <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="clt"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r>من<s n="prn"/><s n="pers"/><s n="clt"/><s n="p1"/><s n="sg"/></r></p></e>
    </pardef>
 
    <pardef n="ت__clt">
-        <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="clt"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r>تۆ<s n="prn"/><s n="pers"/><s n="clt"/><s n="p2"/><s n="sg"/></r></p></e>
    </pardef>
 
    <pardef n="ی__clt">
-        <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r>ئەو<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="sg"/></r></p></e>
    </pardef>
 
    <pardef n="مان__clt">
-        <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="clt"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l></l><r>ئێمە<s n="prn"/><s n="pers"/><s n="clt"/><s n="p1"/><s n="pl"/></r></p></e>
    </pardef>
 
    <pardef n="تان__clt">
-        <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="clt"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l></l><r>ئێوە<s n="prn"/><s n="pers"/><s n="clt"/><s n="p2"/><s n="pl"/></r></p></e>
    </pardef>
 
    <pardef n="یان__clt">
-        <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l></l><r>ئەوان<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="pl"/></r></p></e>
    </pardef>
 
 
@@ -718,6 +718,7 @@
 	<e><p><l>م</l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p><par n="م__clt"/></e> 
 	<e><p><l>ت</l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p><par n="ت__clt"/></e>  
 	<e><p><l>ی</l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p><par n="ی__clt"/></e>
+	<e><p><l></l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p></e>
 	<e><p><l>تانت</l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p><par n="تان__clt"/></e>
 	<e><p><l>تانی</l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p><par n="تان__clt"/></e>
 	<e><p><l>مان</l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p><par n="مان__clt"/></e>
@@ -745,6 +746,16 @@
 	<e><p><l>تانن</l><r><s n="p3"/><s n="pl"/><j/></r></p><par n="تان__clt"/></e>
 	<e><p><l>یانن</l><r><s n="p3"/><s n="pl"/><j/></r></p><par n="یان__clt"/></e>
    </pardef>
+
+   <pardef n="نە_خوارد__vblex_clt">
+	<e><p><l>م</l><r><j/></r></p><par n="م__clt"/></e>
+	<e><p><l>ن</l><r><j/></r></p><par n="ت__clt"/></e>
+	<e><p><l>ی</l><r><j/></r></p><par n="ی__clt"/></e>
+	<e><p><l>ن</l><r><j/></r></p><par n="مان__clt"/></e>
+	<e><p><l>ن</l><r><j/></r></p><par n="تان__clt"/></e>
+	<e><p><l>ین</l><r><j/></r></p><par n="یان__clt"/></e>
+   </pardef>
+   <pardef n="نەم_خوارد__vblex_clt"><e><p><l></l><r><j/></r></p><par n="م__clt"/></e></pardef>
 
 
    <pardef n="كردن__vblex_lvc">
@@ -3687,6 +3698,7 @@
     <e lm="دان"><p><l>مەد</l><r>دان</r></p><par n="مەك__vblex_tv"/></e>
     <e lm="دان"><p><l>بد</l><r>دان</r></p><par n="بك__vblex_tv"/></e>
     <e lm="خواردن"><p><l>نەدەخ</l><r>خواردن</r></p><par n="نەدەخ_ۆ__vblex_tv"/></e>
+    <e lm="خواردن"><p><l>خوارد</l><r>خواردن</r></p><par n="خوارد__vblex_non_lvc"/></e>
     <e lm="خواردن"  r="LR" c="Sulaymani"><p><l>ناخ</l><r>خواردن</r></p><par n="نەدەخ_ۆ__vblex_tv"/></e>
     <e lm="خواردن" r="LR" c="Sulaymani"><p><l>ناخ</l><r>خواردن</r></p><par n="نەدەخ_ۆ__vblex_tv"/></e>
     <e lm="خواردن"><p><l>نەخ</l><r>خواردن</r></p><par n="نەخ_ۆ__vblex_tv"/></e>
