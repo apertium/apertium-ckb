@@ -669,22 +669,92 @@
       <e><p><l>ن</l><r><s n="p3"/><s n="pl"/></r></p></e>
    </pardef>
 
+<!-- Past -->
+   <pardef n="م__clt">
+        <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="clt"/><s n="p1"/><s n="sg"/></r></p></e>
+   </pardef>
 
-   <pardef n="خوارد__vblex">
-<e><p><l>م</l><r><s n="p1"/><s n="sg"/></r></p></e>
-<e><p><l>یت</l><r><s n="p2"/><s n="sg"/></r></p></e>
-<e><p><l>ی</l><r><s n="p2"/><s n="sg"/></r></p></e>
-<e><p><l>ێت</l><r><s n="p3"/><s n="sg"/></r></p></e>
-<e><p><l>ێ</l><r><s n="p3"/><s n="sg"/></r></p></e>
-<e><p><l>ین</l><r><s n="p1"/><s n="pl"/></r></p></e>
-<e><p><l>ن</l><r><s n="p2"/><s n="pl"/></r></p></e>
-<e><p><l>ن</l><r><s n="p3"/><s n="pl"/></r></p></e>
+   <pardef n="ت__clt">
+        <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="clt"/><s n="p2"/><s n="sg"/></r></p></e>
+   </pardef>
+
+   <pardef n="ی__clt">
+        <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="sg"/></r></p></e>
+   </pardef>
+
+   <pardef n="مان__clt">
+        <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="clt"/><s n="p1"/><s n="pl"/></r></p></e>
+   </pardef>
+
+   <pardef n="تان__clt">
+        <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="clt"/><s n="p2"/><s n="pl"/></r></p></e>
+   </pardef>
+
+   <pardef n="یان__clt">
+        <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="pl"/></r></p></e>
+   </pardef>
+
+
+   <pardef n="خوارد__vblex_non_lvc">
+<!-- p1sg -->
+	<e><p><l>مم</l><r><s n="past"/><s n="p1"/><s n="sg"/><j/></r></p><par n="م__clt"/></e> 
+	<e><p><l>می</l><r><s n="past"/><s n="p1"/><s n="sg"/><j/></r></p><par n="ت__clt"/></e> 
+	<e><p><l>تم</l><r><s n="past"/><s n="p1"/><s n="sg"/><j/></r></p><par n="ی__clt"/></e>
+	<e><p><l>تانم</l><r><s n="past"/><s n="p1"/><s n="sg"/><j/></r></p><par n="تان__clt"/></e>
+	<e><p><l>مانم</l><r><s n="past"/><s n="p1"/><s n="sg"/><j/></r></p><par n="مان__clt"/></e>
+	<e><p><l>یانم</l><r><s n="past"/><s n="p1"/><s n="sg"/><j/></r></p><par n="یان__clt"/></e>
+<!-- p2sg -->
+	<e><p><l>مت</l><r><s n="past"/><s n="p2"/><s n="sg"/><j/></r></p><par n="م__clt"/></e> 
+	<e><p><l>می</l><r><s n="past"/><s n="p2"/><s n="sg"/><j/></r></p><par n="م__clt"/></e> 
+	<e><p><l>تی</l><r><s n="past"/><s n="p2"/><s n="sg"/><j/></r></p><par n="ی__clt"/></e> 
+	<e><p><l>تت</l><r><s n="past"/><s n="p2"/><s n="sg"/><j/></r></p><par n="ت__clt"/></e> 
+	<e><p><l>تانت</l><r><s n="past"/><s n="p2"/><s n="sg"/><j/></r></p><par n="تان__clt"/></e>
+	<e><p><l>تانی</l><r><s n="past"/><s n="p2"/><s n="sg"/><j/></r></p><par n="تان__clt"/></e>
+	<e><p><l>مانت</l><r><s n="past"/><s n="p2"/><s n="sg"/><j/></r></p><par n="مان__clt"/></e>
+	<e><p><l>مانی</l><r><s n="past"/><s n="p2"/><s n="sg"/><j/></r></p><par n="مان__clt"/></e>
+	<e><p><l>یانت</l><r><s n="past"/><s n="p2"/><s n="sg"/><j/></r></p><par n="یان__clt"/></e>
+	<e><p><l>یانی</l><r><s n="past"/><s n="p2"/><s n="sg"/><j/></r></p><par n="یان__clt"/></e>
+<!-- p3sg -->
+	<e><p><l>م</l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p><par n="م__clt"/></e> 
+	<e><p><l>ت</l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p><par n="ت__clt"/></e>  
+	<e><p><l>ی</l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p><par n="ی__clt"/></e>
+	<e><p><l>تانت</l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p><par n="تان__clt"/></e>
+	<e><p><l>تانی</l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p><par n="تان__clt"/></e>
+	<e><p><l>مان</l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p><par n="مان__clt"/></e>
+	<e><p><l>یان</l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p><par n="یان__clt"/></e>
+	<e><p><l>یان</l><r><s n="past"/><s n="p3"/><s n="sg"/><j/></r></p><par n="یان__clt"/></e>
+<!-- p1pl -->
+	<e><p><l>مین</l><r><s n="p1"/><s n="pl"/><j/></r></p><par n="م__clt"/></e>
+	<e><p><l>تین</l><r><s n="p1"/><s n="pl"/><j/></r></p><par n="ت__clt"/></e> 
+	<e><p><l>ینی</l><r><s n="p1"/><s n="pl"/><j/></r></p><par n="ی__clt"/></e>
+	<e><p><l>مانین</l><r><s n="p1"/><s n="pl"/><j/></r></p><par n="مان__clt"/></e>
+	<e><p><l>تانین</l><r><s n="p1"/><s n="pl"/><j/></r></p><par n="تان__clt"/></e>
+	<e><p><l>یانین</l><r><s n="p1"/><s n="pl"/><j/></r></p><par n="یان__clt"/></e>
+<!-- p2pl -->
+	<e><p><l>من</l><r><s n="p2"/><s n="pl"/><j/></r></p><par n="م__clt"/></e>
+	<e><p><l>تن</l><r><s n="p2"/><s n="pl"/><j/></r></p><par n="ت__clt"/></e> 
+	<e><p><l>نی</l><r><s n="p2"/><s n="pl"/><j/></r></p><par n="ی__clt"/></e>
+	<e><p><l>مانن</l><r><s n="p2"/><s n="pl"/><j/></r></p><par n="مان__clt"/></e>
+	<e><p><l>تانن</l><r><s n="p2"/><s n="pl"/><j/></r></p><par n="تان__clt"/></e>
+	<e><p><l>یانن</l><r><s n="p2"/><s n="pl"/><j/></r></p><par n="یان__clt"/></e>
+<!-- p3pl -->
+	<e><p><l>من</l><r><s n="p3"/><s n="pl"/><j/></r></p><par n="م__clt"/></e>
+	<e><p><l>تن</l><r><s n="p3"/><s n="pl"/><j/></r></p><par n="ت__clt"/></e>
+	<e><p><l>ینی</l><r><s n="p3"/><s n="pl"/><j/></r></p><par n="ی__clt"/></e>
+	<e><p><l>مانن</l><r><s n="p3"/><s n="pl"/><j/></r></p><par n="مان__clt"/></e>
+	<e><p><l>تانن</l><r><s n="p3"/><s n="pl"/><j/></r></p><par n="تان__clt"/></e>
+	<e><p><l>یانن</l><r><s n="p3"/><s n="pl"/><j/></r></p><par n="یان__clt"/></e>
    </pardef>
 
 
    <pardef n="كردن__vblex_lvc">
-      <e><p><l>دەك</l><r><s n="vblex"/><s n="tv"/></r></p><par n="دەك__vblex"/></e>
-      <e><p><l>نەدەك</l><r><s n="vblex"/><s n="tv"/><s n="neg"/></r></p><par n="دەك__vblex"/></e>
+    <e lm="كردن"><p><l>نەك</l><r>كردن</r></p><par n="نەك__vblex_tv"/></e>
+    <e lm="كردن"><p><l>نەدەك</l><r>كردن</r></p><par n="نەدەك__vblex_tv"/></e>
+    <e lm="كردن"  r="LR" c="Sulaymani"><p><l>ناك</l><r>كردن</r></p><par n="نەدەك__vblex_tv"/></e>
+    <e lm="كردن"><p><l>دەك</l><r>كردن</r></p><par n="دەك__vblex_tv"/></e>
+    <e lm="كردن"><p><l>مەك</l><r>كردن</r></p><par n="مەك__vblex_tv"/></e>
+    <e lm="كردن"><p><l>بك</l><r>كردن</r></p><par n="بك__vblex_tv"/></e>
+
     </pardef>
 
 
