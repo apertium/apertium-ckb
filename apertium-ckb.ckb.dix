@@ -219,6 +219,7 @@
       <e c="Sulaymani"><p><l>یەین</l><r><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e c="Sulaymani"><p><l>یەن</l><r><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e c="Sulaymani"><p><l>یەن</l><r><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>وەرە</l><r><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>دێم</l><r><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>دێیت</l><r><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>دێی</l><r><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -656,6 +657,10 @@
       <e><p><l>ن</l><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="neg"/><s n="p2"/><s n="pl"/></r></p></e>
     </pardef>
 
+
+
+
+
     <!-- Past -->
 
    <pardef n="خوارد__vblex_past_agr">
@@ -762,8 +767,27 @@
     <e><p><l>نەدەك</l><r>كردن</r></p><par n="نەدەك__vblex_tv"/></e>
     <e r="LR" c="Sulaymani"><p><l>ناك</l><r>كردن</r></p><par n="نەدەك__vblex_tv"/></e>
     <e><p><l>دەك</l><r>كردن</r></p><par n="دەك__vblex_tv"/></e>
+    <e r="LR" c="Sulaymani"><p><l>ئەك</l><r>كردن</r></p><par n="دەك__vblex_tv"/></e>
     <e><p><l>مەك</l><r>كردن</r></p><par n="مەك__vblex_tv"/></e>
     <e><p><l>بك</l><r>كردن</r></p><par n="بك__vblex_tv"/></e>
+    </pardef>
+
+    <pardef n="كردنەوە__vblex_lvc">
+    <e><p><l>نەك</l><r>كردنەوە</r></p><par n="نەك_ەوە__vblex_tv"/></e>
+    <e r="LR" c="Sulaymani"><p><l>ناك</l><r>كردنەوە</r></p><par n="نەك_ەوە__vblex_tv"/></e>
+    <e><p><l>نەدەك</l><r>كردنەوە</r></p><par n="نەدەك_ەوە__vblex_tv"/></e>
+    <e r="LR" c="Sulaymani"><p><l>ئەك</l><r>كردنەوە</r></p><par n="دەك_ەوە__vblex_tv"/></e>
+    <e><p><l>دەك</l><r>كردنەوە</r></p><par n="دەك_ەوە__vblex_tv"/></e>
+    <e><p><l>بك</l><r>كردنەوە</r></p><par n="بك_ەوە__vblex_tv"/></e>
+    </pardef>
+
+    <pardef n="دەچ__lvc_iv">
+      <e><p><l>دەچ</l><r>چوون<s n="vblex"/><s n="iv"/></r></p><par n="دەچ__vblex"/></e>
+      <e><p><l>نەدەچ</l><r>چوون<s n="vblex"/><s n="iv"/><s n="neg"/></r></p><par n="دەچ__vblex"/></e>
+      <e r="LR" c="Sulaymani"><p><l>ناچ</l><r>چوون<s n="vblex"/><s n="iv"/><s n="neg"/></r></p><par n="دەچ__vblex"/></e>
+      <e><p><l>نەچ</l><r>چوون</r></p><par n="نەچ__vblex_iv"/></e>
+      <e><p><l>مەچ</l><r>چوون</r></p><par n="مەچ__vblex_iv"/></e>
+      <e><p><l>بچ</l><r>چوون</r></p><par n="بچ__vblex_iv"/></e>
     </pardef>
 
 
@@ -911,6 +935,7 @@
     </pardef>
 
     <pardef n="بەر__pr">
+      <e r="LR"><p><l>ە</l><r><s n="pr"/></r></p></e>
       <e><p><l></l><r><s n="pr"/></r></p></e>
       <e><p><l></l><r><s n="pr"/><j/></r></p><par n="pers__prn_clt"/></e>
     </pardef>
@@ -1003,6 +1028,47 @@
         <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p><par n="ش__vocalic"/></e>
         <e><p><l>انە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
         <e><p><l>ە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+        <e r="LR"><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
+        <e r="LR"><p><l>یی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
+        <e r="LR"><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
+        <e r="LR"><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/><j/></r></p><par n="بوون__clt_cons"/></e>
+        <e r="LR"><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p><par n="یش__consonantal"/></e>
+        <e r="LR"><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/><j/></r></p><par n="poss__clt"/></e>
+        <e r="LR"><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p><par n="poss__agr"/></e>
+        <e r="LR"><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e r="LR"><p><l>یەكی</l><r><s n="n"/><s n="sg"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e r="LR"><p><l>یان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p></e>
+        <e r="LR"><p><l>یان</l><r><s n="n"/><s n="pl"/><s n="ind"/><j/></r></p><par n="بوون__clt_cons"/></e>
+        <e r="LR"><p><l>یان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p><par n="یش__consonantal"/></e>
+        <e r="LR"><p><l>یان</l><r><s n="n"/><s n="pl"/><s n="ind"/><j/></r></p><par n="poss__clt"/></e>
+        <e r="LR"><p><l>یان</l><r><s n="n"/><s n="pl"/><s n="ind"/></r></p><par n="poss__agr"/></e>
+        <e r="LR"><p><l>یە</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezaclo"/></r></p></e>
+        <e r="LR"><p><l>یانی</l><r><s n="n"/><s n="pl"/><s n="ind"/><s n="ezalos"/></r></p></e>
+        <e r="LR"><p><l>یەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p></e>
+        <e r="LR"><p><l>یەكە</l><r><s n="n"/><s n="sg"/><s n="def"/><j/></r></p><par n="بوون__clt_voc"/></e>
+        <e r="LR"><p><l>یەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p><par n="ش__vocalic"/></e>
+        <e r="LR"><p><l>یەكە</l><r><s n="n"/><s n="sg"/><s n="def"/></r></p><par n="poss__agr"/></e>
+        <e r="LR"><p><l>یەكە</l><r><s n="n"/><s n="sg"/><s n="def"/><j/></r></p><par n="poss__clt"/></e>
+        <e r="LR"><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e r="LR"><p><l>یە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e r="LR"><p><l>یانە</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezaclo"/></r></p></e>
+        <e r="LR"><p><l>یەكەی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e r="LR"><p><l>یەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p></e>
+        <e r="LR"><p><l>یەكان</l><r><s n="n"/><s n="pl"/><s n="def"/><j/></r></p><par n="بوون__clt_cons"/></e>
+        <e r="LR"><p><l>یەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p><par n="یش__consonantal"/></e>
+        <e r="LR"><p><l>یەكان</l><r><s n="n"/><s n="pl"/><s n="def"/><j/></r></p><par n="poss__clt"/></e>
+        <e r="LR"><p><l>یەكان</l><r><s n="n"/><s n="pl"/><s n="def"/></r></p><par n="poss__agr"/></e>
+        <e r="LR"><p><l>یەكانی</l><r><s n="n"/><s n="pl"/><s n="def"/><s n="ezalos"/></r></p></e>
+        <e r="LR"><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/></r></p></e>
+        <e r="LR"><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e r="LR"><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="dem"/><s n="ezaclo"/></r></p></e>
+        <e r="LR"><p><l>یانە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p></e>
+        <e r="LR"><p><l>یانە</l><r><s n="n"/><s n="pl"/><s n="dem"/><j/></r></p><par n="بوون__clt_voc"/></e>
+        <e r="LR"><p><l>یانە</l><r><s n="n"/><s n="pl"/><s n="dem"/><j/></r></p><par n="poss__clt"/></e>
+        <e r="LR"><p><l>یانە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p><par n="poss__agr"/></e>
+        <e r="LR"><p><l>یانە</l><r><s n="n"/><s n="pl"/><s n="dem"/></r></p><par n="ش__vocalic"/></e>
+        <e r="LR"><p><l>یانە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezalos"/></r></p></e>
+        <e r="LR"><p><l>یە</l><r><s n="n"/><s n="pl"/><s n="dem"/><s n="ezaclo"/></r></p></e>
 	<!-- ZWNJ stuff -->
         <e r="LR"><p><l>ەكە‌ی</l><r><s n="n"/><s n="sg"/><s n="def"/><s n="ezalos"/></r></p></e>
     </pardef>
@@ -1067,6 +1133,7 @@
         <e><p><l></l><r><s n="n"/><s n="sg"/><s n="abs"/></r></p><par n="poss__agr"/></e>
         <e><p><l>یە</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezaclo"/></r></p></e>
         <e><p><l>یی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
+        <e r="LR"><p><l>ی</l><r><s n="n"/><s n="sg"/><s n="abs"/><s n="ezalos"/></r></p></e>
         <e><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p></e>
         <e><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/><j/></r></p><par n="بوون__clt_cons"/></e>
         <e><p><l>یەك</l><r><s n="n"/><s n="sg"/><s n="ind"/></r></p><par n="یش__consonantal"/></e>
@@ -1704,6 +1771,7 @@
   <section id="main" type="standard">
     <!-- SECTION: Miscellaneous -->
     <e lm="ئایا"><i>ئایا</i><par n="ئایا__qst"/></e>
+    <e lm="ئاخۆ"><i>ئاخۆ</i><par n="ئایا__qst"/></e>
     <!-- SECTION: Conjunctions -->
 
     <e lm="و"><i>و</i><par n="وە__cnjcoo"/></e>
@@ -1916,6 +1984,10 @@
      <e lm="تەنیا"><i>تەنیا</i><par n="درێژ__adj"/></e>
 
     <!-- SECTION: Nouns -->
+      <e lm="ماجونی ددان"><i>ماجونی<b/>ددان</i><par n="خانوو__n"/></e>
+      <e lm="کرێ"><i>کرێ</i><par n="فێ__n"/></e>
+      <e lm="حەز"><i>حەز</i><par n="خانوو__n"/></e>
+      <e lm="شوێنی یاریکردن"><i>شوێنی<b/>یاریکردن</i><par n="خانوو__n"/></e>
       <!-- SECTION: PyNouns -->
       <e lm="ئەنفلۆنزا"><i>ئەنفلۆنزا</i><par n="دەریا__n"/></e>
       <e lm="ئەندامی هێلکەدانی مێینە"><i>ئەندامی<b/>هێلکەدانی<b/>مێین</i><par n="نام_ە__n"/></e>
@@ -2860,6 +2932,7 @@
       <e lm="پەنابەر"><i>پەنابەر</i><par n="خانوو__n"/></e>
       <e lm="ڕێكە پێدان"><i>ڕێكە<b/>پێدان</i><par n="خانوو__n"/></e>
       <e lm="ڤایبەر"><i>ڤایبەر</i><par n="خانوو__n"/></e>
+      <e lm="تۆمارکردن"><i>تۆمارکردن</i><par n="خانوو__n"/></e>
       <e lm="بلیت"><i>بلیت</i><par n="خانوو__n"/></e>
       <e lm="شوێن"><i>شوێن</i><par n="خانوو__n"/></e>
       <e lm="خزمەتكوزاری"><i>خزمەتكوزاری</i><par n="ئازادی__n"/></e>
@@ -3532,7 +3605,9 @@
       <e lm="جەیمز"><i>جەیمز</i><par n="سولەیمان__np"/></e>
 
 
-
+      <e lm="سربیا"><i>سربیا</i><par n="تورکیا__np"/></e>
+      <e lm="سوریا"><i>سوریا</i><par n="تورکیا__np"/></e>
+      <e lm="سالونیکی"><i>سالونیکی</i><par n="تورکیا__np"/></e>
       <e lm="تورکیا"><i>تورکیا</i><par n="تورکیا__np"/></e>
       <e lm="کوردستان"><i>کوردستان</i><par n="ئازەربایجان__np"/></e>
       <e lm="ئێران"><i>ئێران</i><par n="ئازەربایجان__np"/></e>
@@ -3615,6 +3690,7 @@
     <e lm="هەرگیز"><i>هەرگیز</i><par n="ئەمرۆ__adv"/></e>
     <e lm="تەنها"><i>تەنها</i><par n="ئەمرۆ__adv"/></e>
     <e lm="ئەمرۆ"><i>ئەمرۆ</i><par n="ئەمرۆ__adv"/></e>
+    <e lm="ئەمشەو"><i>ئەمشەو</i><par n="ئەمرۆ__adv"/></e>
     <e lm="ئەوێ"><i>ئەوێ</i><par n="ئەمرۆ__adv"/></e>
     <e lm="لەوێ"><i>لەوێ</i><par n="ئەمرۆ__adv"/></e>
     <e lm="لەوێوە"><i>لەوێوە</i><par n="ئەمرۆ__adv"/></e>
@@ -3647,6 +3723,9 @@
     <e lm="چوون" r="LR" c="Sulaymani"><p><l>ناچ</l><r>چوون</r></p><par n="نەدەچ__vblex_iv"/></e>
     <e lm="چوون"><p><l>بچ</l><r>چوون</r></p><par n="بچ__vblex_iv"/></e>
     <e lm="چوون"><p><l>نەچ</l><r>چوون</r></p><par n="نەچ__vblex_iv"/></e>
+
+
+    <e lm="بەرەوپێشچوون"><p><l>بەرەوپێش</l><r>بەرەوپێش</r></p><par n="دەچ__lvc_iv"/></e>
 
     <e lm="هەوڵدان"><p><l>هەوڵنەدەد</l><r>هەوڵدان</r></p><par n="نەدەك__vblex_tv"/></e>
     <e lm="هەوڵدان"><p><l>هەوڵنەد</l><r>هەوڵدان</r></p><par n="نەك__vblex_tv"/></e>
@@ -3702,6 +3781,17 @@
     <e lm="كردن"><p><l>دەك</l><r>كردن</r></p><par n="دەك__vblex_tv"/></e>
     <e lm="كردن"><p><l>مەك</l><r>كردن</r></p><par n="مەك__vblex_tv"/></e>
     <e lm="كردن"><p><l>بك</l><r>كردن</r></p><par n="بك__vblex_tv"/></e>
+
+<!--‌ KNOW: زانن -->
+    <e lm="زانن"><p><l>نەزان</l><r>زانن</r></p><par n="نەنووس__vblex_tv"/></e>
+    <e lm="زانن"><p><l>نەدەزان</l><r>زانن</r></p><par n="نەدەنووس__vblex_tv"/></e>
+    <e lm="زانن" r="LR" c="Sulaymani"><p><l>ئەزان</l><r>زانن</r></p><par n="دەنووس__vblex_tv"/></e>
+    <e lm="زانن" r="LR" c="Sulaymani"><p><l>نازان</l><r>زانن</r></p><par n="نەدەنووس__vblex_tv"/></e>
+    <e lm="زانن"><p><l>دەزان</l><r>زانن</r></p><par n="دەنووس__vblex_tv"/></e>
+    <e lm="زانن"><p><l>مەزان</l><r>زانن</r></p><par n="مەنووس__vblex_tv"/></e>
+    <e lm="زانن"><p><l>بزان</l><r>زانن</r></p><par n="بنووس__vblex_tv"/></e>
+
+
     <e lm="بانگ كردن"><p><l>بانگ</l><r>بانگ</r></p><par n="بانگ_كردن__vblex"/></e>
     <e lm="هەست کردن"><p><l>هەست</l><r></r></p><par n="بانگ_كردن__vblex"/></e>
     <e lm="هەست پێ کردن"><p><l>هەست<b/>داگیرپێ</l><r>هەست<b/>داگیرپێ</r></p><par n="بانگ_كردن__vblex"/></e>
@@ -3721,6 +3811,7 @@
     <e lm="بۆن کردن"><p><l>بۆن</l><r>بۆن</r></p><par n="بانگ_كردن__vblex"/></e>
     <e lm="بەزۆر داگیر کردن"><p><l>بەزۆر<b/>داگیر</l><r>بەزۆر<b/>داگیر</r></p><par n="بانگ_كردن__vblex"/></e>
     <e lm="ڕاوێژ کردن"><p><l>ڕاوێژ</l><r>ڕاوێژ</r></p><par n="بانگ_كردن__vblex"/></e>
+    <e lm="پارێزگاری کردن"><p><l>پارێزگاری</l><r>پارێزگاری</r></p><par n="بانگ_كردن__vblex"/></e>
 
 
     <e lm="شتن"><p><l>نەش</l><r>شتن</r></p><par n="نەش_ۆ__vblex_iv"/></e>
