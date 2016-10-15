@@ -1,0 +1,31 @@
+Multichar_Symbols
+
+%<n%> ! Noun
+%<nom%> ! Nominative
+%<pl%> ! Plural
+
+LEXICON Root
+Prefixes;
+NounStems ;
+
+LEXICON NounStems
+
+ﻡﺭۆڤ  Ninfl ; ! "person"
+ﺩەﺭیﺍ Ninfl ; ! "sea"
+
+LEXICON Ninfl
+
+%<n%>: # ;
+
+LEXICON Prefixes  ! Modal/polarity prefixes, pronominal clitics
+
+%<pri%>:ﺩە PrefClt ; ! usually present indicative
+
+LEXICON PrefClt 
+
+من%<prn%>%<pers%>%<clt%>%<p1%>%<sg%>:م VerbRoot; ! p1sg clitic
+
+LEXICON VerbRoot
+
+ویستن%<vblex%>%<tv%>%<pri%>:ەﻭێ # ; !wîstin - want
+ 
