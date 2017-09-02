@@ -38,6 +38,7 @@
     <sdef n="p2"       c="Number"/>
     <sdef n="qnt"       c=""/>
     <sdef n="qst"       c=""/>
+    <sdef n="sp"       c=""/>
     <sdef n="p3"       c="Number"/>
     <sdef n="px1sg"       c="Possessor"/>
     <sdef n="px2sg"       c="Possessor"/>
@@ -973,6 +974,9 @@
       <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="det__چەند">
+      <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="sp"/></r></p></e>
+    </pardef>
     <!-- SECTION: Numerals -->
 
     <pardef n="یەك__num">
@@ -1833,6 +1837,7 @@
 
     <!-- SECTION: Determiners -->   
     <e lm="هەر"><i>هەر</i><par n="هەر__det"/></e>
+    <e lm="چەند"><i>چەند</i><par n="det__چەند"/></e>
     <e lm="هەر" r="LR"><p><l>ھەر</l><r>هەر</r></p><par n="هەر__det"/></e>
     <e lm="ئەم"><i>ئەم</i><par n="ئەم__det"/></e>
     <e lm="ئەو"><i>ئەو</i><par n="ئەم__det"/></e>
