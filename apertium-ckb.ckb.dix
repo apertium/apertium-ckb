@@ -215,39 +215,39 @@
     </pardef>
 
     <pardef n="ھاتن__vblex">
-      <e c="Sulaymani"><p><l>یەم</l><r>هاتن<s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e c="Sulaymani"><p><l>یەیت</l><r>هاتن<s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e c="Sulaymani"><p><l>یەی</l><r>هاتن<s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e c="Sulaymani"><p><l>یەت</l><r>هاتن<s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e c="Sulaymani"><p><l>یە</l><r>هاتن<s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e c="Sulaymani"><p><l>یەین</l><r>هاتن<s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e c="Sulaymani"><p><l>یەن</l><r>هاتن<s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e c="Sulaymani"><p><l>یەن</l><r>هاتن<s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>وەرە</l><r>هاتن<s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>دێم</l><r>هاتن<s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>دێیت</l><r>هاتن<s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>دێی</l><r>هاتن<s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>دێت</l><r>هاتن<s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>دێ</l><r>هاتن<s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>دێین</l><r>هاتن<s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>دێن</l><r>هاتن<s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>دێن</l><r>هاتن<s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>بێم</l><r>هاتن<s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>بێیت</l><r>هاتن<s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>بێی</l><r>هاتن<s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>بێت</l><r>هاتن<s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>بێ</l><r>هاتن<s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>بێین</l><r>هاتن<s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>بێن</l><r>هاتن<s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>بێن</l><r>هاتن<s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>نایەم</l><r>هاتن<s n="pri"/><s n="neg"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>نایەیت</l><r>هاتن<s n="pri"/><s n="neg"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>نایەی</l><r>هاتن<s n="pri"/><s n="neg"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>نایە</l><r>هاتن<s n="pri"/><s n="neg"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>نایە</l><r>هاتن<s n="pri"/><s n="neg"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>نایەین</l><r>هاتن<s n="pri"/><s n="neg"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>نایەن</l><r>هاتن<s n="pri"/><s n="neg"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>نایەن</l><r>هاتن<s n="pri"/><s n="neg"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR" c="Sulaymani"><p><l>یەم</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e c="Sulaymani"><p><l>یەیت</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e c="Sulaymani"><p><l>یەی</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e c="Sulaymani"><p><l>یەت</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e c="Sulaymani"><p><l>یە</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e c="Sulaymani"><p><l>یەین</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e c="Sulaymani"><p><l>یەن</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e c="Sulaymani"><p><l>یەن</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>وەرە</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>دێم</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>دێیت</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>دێی</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>دێت</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>دێ</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>دێین</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>دێن</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>دێن</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>بێم</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>بێیت</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>بێی</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>بێت</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>بێ</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>بێین</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>بێن</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>بێن</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>نایەم</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="neg"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>نایەیت</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="neg"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>نایەی</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="neg"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>نایە</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="neg"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>نایە</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="neg"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>نایەین</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="neg"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>نایەن</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="neg"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>نایەن</l><r>هاتن<s n="vblex"/><s n="iv"/><s n="pri"/><s n="neg"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="ھاتن__vblex_iv">
